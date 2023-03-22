@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sohyun Park">
+
+<title>RS notebook - 1&nbsp; Introduction to Remote Sensing</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./week2.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Remote Sensing</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">RS notebook</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week1.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Remote Sensing</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Portfolio tools</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Remote sensing data</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy applications</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Introduction to Google Earth Engine</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification the big questions and accuracy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week8.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">1.1</span>  Summary</a>
+  <ul class="collapse">
+  <li><a href="#what-is-remote-sensing" id="toc-what-is-remote-sensing" class="nav-link" data-scroll-target="#what-is-remote-sensing"><span class="toc-section-number">1.1.1</span>  What is remote sensing?</a></li>
+  <li><a href="#type-of-sensors" id="toc-type-of-sensors" class="nav-link" data-scroll-target="#type-of-sensors"><span class="toc-section-number">1.1.2</span>  Type of sensors</a></li>
+  <li><a href="#two-types-of-remote-sensing-sensors" id="toc-two-types-of-remote-sensing-sensors" class="nav-link" data-scroll-target="#two-types-of-remote-sensing-sensors"><span class="toc-section-number">1.1.3</span>  Two types of remote sensing sensors</a></li>
+  <li><a href="#passive-sensors" id="toc-passive-sensors" class="nav-link" data-scroll-target="#passive-sensors"><span class="toc-section-number">1.1.4</span>  Passive sensors</a></li>
+  <li><a href="#active-sensors" id="toc-active-sensors" class="nav-link" data-scroll-target="#active-sensors"><span class="toc-section-number">1.1.5</span>  Active sensors</a></li>
+  <li><a href="#causes-of-bidirectional-reflectance-distribution-functions" id="toc-causes-of-bidirectional-reflectance-distribution-functions" class="nav-link" data-scroll-target="#causes-of-bidirectional-reflectance-distribution-functions"><span class="toc-section-number">1.1.6</span>  Causes of bidirectional reflectance distribution functions</a></li>
+  <li><a href="#explore-the-4-resolutions-of-remotely-sensed-data" id="toc-explore-the-4-resolutions-of-remotely-sensed-data" class="nav-link" data-scroll-target="#explore-the-4-resolutions-of-remotely-sensed-data"><span class="toc-section-number">1.1.7</span>  Explore the 4 resolutions of remotely sensed data</a></li>
+  </ul></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">1.2</span>  Applications</a></li>
+  <li><a href="#personal-reflection" id="toc-personal-reflection" class="nav-link" data-scroll-target="#personal-reflection"><span class="toc-section-number">1.3</span>  Personal Reflection</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Remote Sensing</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sohyun Park </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="summary" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">1.1</span> Summary</h2>
+<p>This week is about basic of Reomote Sensing. It is about “What is reomote sensing?” and about “how it works”.</p>
+<section id="what-is-remote-sensing" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="what-is-remote-sensing"><span class="header-section-number">1.1.1</span> What is remote sensing?</h3>
+<p>NASA defines remote sensing as <strong>acquiring information from a distance</strong></p>
+<p>Remote sensing is a technology that obtains information from a distance without contact with the observed object. It uses electromagnetic waves reflected or emitted from objects to investigate the components, types, and states of objects. In the case of ocean remote sensing, ocean currents can be estimated by measuring water temperature with an infrared sensor of an artificial satellite, the structure of upwelling or eddies can be identified, and the ocean circulation structure can also be understood. In the case of meteorological remote sensing, cloud temperature, classification, dust, ozone content, wind speed, etc. can be observed. Remote sensing is also used to monitor glacier and volcanic activity, and to study abnormal climate caused by El Niño.</p>
+</section>
+<section id="type-of-sensors" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="type-of-sensors"><span class="header-section-number">1.1.2</span> Type of sensors</h3>
+<p>When we use Remote sensing we have to collet data by various of sensors. We can collect data by</p>
+<ul>
+<li><p>Satellites</p></li>
+<li><p>Phones(aerial imagery)</p></li>
+<li><p>Drones</p></li>
+<li><p>Phones</p></li>
+<li><p>Free standing on the ground or sea</p></li>
+</ul>
+<p><img src="images/paste-070EE831.png" class="img-fluid"></p>
+<p>Source for this image https://www.industrytap.com/remote-sensing-sustainable-land-use/33218</p>
+</section>
+<section id="two-types-of-remote-sensing-sensors" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="two-types-of-remote-sensing-sensors"><span class="header-section-number">1.1.3</span> Two types of remote sensing sensors</h3>
+<p>There are two Type of sensors; Passive sensors and Active sensors. Let’s see more specifically.</p>
+</section>
+<section id="passive-sensors" class="level3" data-number="1.1.4">
+<h3 data-number="1.1.4" class="anchored" data-anchor-id="passive-sensors"><span class="header-section-number">1.1.4</span> Passive sensors</h3>
+<p>This sensors don’t emit anytning and use energy that is available. And they detecting reflected energy(in electromagnetic waves) from the sun. For example, human eye, camera and satellite sonsor.</p>
+</section>
+<section id="active-sensors" class="level3" data-number="1.1.5">
+<h3 data-number="1.1.5" class="anchored" data-anchor-id="active-sensors"><span class="header-section-number">1.1.5</span> Active sensors</h3>
+<p>This type of sensors have an energy source for illumination and actively emits electormagnetic waves and then waits to receive. Electromagnetic radiation propagates as waves. So we can see through clouds, volcanic ash, atmospheric conditions and also collect data at night. Such as Radar, X-ray and LiDAR.</p>
+<p><img src="images/paste-FF22A002.png" class="img-fluid"></p>
+<p><img src=".png" class="img-fluid"></p>
+<p>Passive and active sensors systems working principles. Source:<a href="source:%20https://www.researchgate.net/figure/Passive-and-active-sensors-systems-working-principles-24_fig2_344464269">Nadhir Al-Ansari</a></p>
+</section>
+<section id="causes-of-bidirectional-reflectance-distribution-functions" class="level3" data-number="1.1.6">
+<h3 data-number="1.1.6" class="anchored" data-anchor-id="causes-of-bidirectional-reflectance-distribution-functions"><span class="header-section-number">1.1.6</span> Causes of bidirectional reflectance distribution functions</h3>
+<p>Sensors collect data from energy being reflected from the surface that is smooth or diffuse. When electromagnetic waves are reflected from the surface , the waves can be linked to surface properties - roughness, shape, orientation, moisture, salinity and density. Furthermore, SAR data less commonly documented surface interactions.</p>
+<p><img src="images/paste-B1C42757.png" class="img-fluid"></p>
+<p>Source: <a href="https://www.umb.edu/spectralmass/terra_aqua_modis/modis">Professor Crystal Schaaf’s Lab</a></p>
+</section>
+<section id="explore-the-4-resolutions-of-remotely-sensed-data" class="level3" data-number="1.1.7">
+<h3 data-number="1.1.7" class="anchored" data-anchor-id="explore-the-4-resolutions-of-remotely-sensed-data"><span class="header-section-number">1.1.7</span> Explore the 4 resolutions of remotely sensed data</h3>
+<p>Remotely sensed data and applications will vary based on the four resolutions.</p>
+<ol type="1">
+<li><p>Spatial</p>
+<p>It is the size of the raster cells(grid per pixels). It’s range between 10cm and several kilometers.</p>
+<p><img src="images/paste-69B7DCB3.png" class="img-fluid"></p>
+<p>Source https://andrewmaclachlan.github.io/CASA0023-lecture-1/#54</p></li>
+<li><p>Spectral</p>
+<p>Images seen by the human eye are perceived as wavelengths of red, green, and blue, which are visible light rays. A color different from the wavelength reflected by the object is recognized as the color absorbed. However, we are subject to the constraints of the atmospheric window (water vapor, ozone, carbon dioxide and atmospheric molecules block part of the spectrum). Therefore, we can observe it only where it is not absorbed by the atmosphere.</p>
+<p>We classify the type or spectral resolution according to the number of bands we observe. Each band is usually provided as a separate raster layer. This means that the spectral signature can be either discrete or continuous.</p>
+<p><img src="images/paste-AF9F0A53.png" class="img-fluid"></p>
+<p>Source: <a href="https://earthdata.nasa.gov/learn/backgrounders/remote-sensing#orbits">NASA Science</a></p></li>
+<li><p>Temporal</p>
+<p>This means that the revisit time of the sensor needs to be considered. For example, return visit times are daily, every 7 days or upon request. Also, lower resolution means larger pixels.</p></li>
+<li><p>Radiometric</p>
+<p>The ability of a sensor to identify and display small differences in energy. Higher means more sensitive.</p>
+<ul>
+<li><p>8 bits = 256 possible values</p></li>
+<li><p>4 bits = 16 possible values</p></li>
+</ul></li>
+</ol>
+<p>Furthermore, we have to consider type of orbit. There are two type of orbits. First, geosynchronous orbit (GSO) is that satellite matches the Earth’s rotation. Second, geostationary orbit, this orbit holds same position, usually only for communications but some sensors are geostationary.</p>
+<p><img src="images/paste-45BCDEA4.png" class="img-fluid"></p>
+<p>Source: <a href="https://www.americanscientist.org/article/fifty-years-of-earth-observation-satellites">American Scientist</a></p>
+</section>
+</section>
+<section id="applications" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">1.2</span> Applications</h2>
+</section>
+<section id="personal-reflection" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="personal-reflection"><span class="header-section-number">1.3</span> Personal Reflection</h2>
+<p>Before entering CASA, I majored in cadastral science in undergraduate and had 3 years of experience working for a company that did cadastral surveying and spatial information analysis. I learned about Remote Sensing Introduction 9 years ago when I was an undergraduate. Based on this, I received training on a project to create a flood trace map when I work as a junior engineer at company.</p>
+<p>However, this module is an updated version of the knowledge I have previously learned and acquired. I was amazed at how much the resolution has improved. The module also taught us that improvements in remote sensing satellites such as the higher resolution Sentinel and Google Earth Enngine (GEE) allow for a wide range of analyzes such as object-based image detection. In this week’s module, I was able to review the basics and principles of remote sensing that I had learned in the past and learned about advanced technology.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./week2.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Portfolio tools</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

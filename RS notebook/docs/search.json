@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "week4.html#applications",
+    "href": "week4.html#applications",
+    "title": "4 Policy applications",
+    "section": "4.2 Applications",
+    "text": "4.2 Applications"
+  },
+  {
+    "objectID": "week4.html#personal-reflection",
+    "href": "week4.html#personal-reflection",
+    "title": "4 Policy applications",
+    "section": "4.3 Personal Reflection",
+    "text": "4.3 Personal Reflection"
+  },
+  {
+    "objectID": "week1.html",
+    "href": "week1.html",
+    "title": "1 Introduction to Remote Sensing",
+    "section": "",
+    "text": "This week is about basic of Reomote Sensing. It is about “What is reomote sensing?” and about “how it works”.\n\n\nNASA defines remote sensing as acquiring information from a distance\nRemote sensing is a technology that obtains information from a distance without contact with the observed object. It uses electromagnetic waves reflected or emitted from objects to investigate the components, types, and states of objects. In the case of ocean remote sensing, ocean currents can be estimated by measuring water temperature with an infrared sensor of an artificial satellite, the structure of upwelling or eddies can be identified, and the ocean circulation structure can also be understood. In the case of meteorological remote sensing, cloud temperature, classification, dust, ozone content, wind speed, etc. can be observed. Remote sensing is also used to monitor glacier and volcanic activity, and to study abnormal climate caused by El Niño.\n\n\n\nWhen we use Remote sensing we have to collet data by various of sensors. We can collect data by\n\nSatellites\nPhones(aerial imagery)\nDrones\nPhones\nFree standing on the ground or sea\n\n\nSource for this image https://www.industrytap.com/remote-sensing-sustainable-land-use/33218\n\n\n\nThere are two Type of sensors; Passive sensors and Active sensors. Let’s see more specifically.\n\n\n\nThis sensors don’t emit anytning and use energy that is available. And they detecting reflected energy(in electromagnetic waves) from the sun. For example, human eye, camera and satellite sonsor.\n\n\n\nThis type of sensors have an energy source for illumination and actively emits electormagnetic waves and then waits to receive. Electromagnetic radiation propagates as waves. So we can see through clouds, volcanic ash, atmospheric conditions and also collect data at night. Such as Radar, X-ray and LiDAR.\n\n\nPassive and active sensors systems working principles. Source:Nadhir Al-Ansari\n\n\n\nSensors collect data from energy being reflected from the surface that is smooth or diffuse. When electromagnetic waves are reflected from the surface , the waves can be linked to surface properties - roughness, shape, orientation, moisture, salinity and density. Furthermore, SAR data less commonly documented surface interactions.\n\nSource: Professor Crystal Schaaf’s Lab\n\n\n\nRemotely sensed data and applications will vary based on the four resolutions.\n\nSpatial\nIt is the size of the raster cells(grid per pixels). It’s range between 10cm and several kilometers.\n\nSource https://andrewmaclachlan.github.io/CASA0023-lecture-1/#54\nSpectral\nImages seen by the human eye are perceived as wavelengths of red, green, and blue, which are visible light rays. A color different from the wavelength reflected by the object is recognized as the color absorbed. However, we are subject to the constraints of the atmospheric window (water vapor, ozone, carbon dioxide and atmospheric molecules block part of the spectrum). Therefore, we can observe it only where it is not absorbed by the atmosphere.\nWe classify the type or spectral resolution according to the number of bands we observe. Each band is usually provided as a separate raster layer. This means that the spectral signature can be either discrete or continuous.\n\nSource: NASA Science\nTemporal\nThis means that the revisit time of the sensor needs to be considered. For example, return visit times are daily, every 7 days or upon request. Also, lower resolution means larger pixels.\nRadiometric\nThe ability of a sensor to identify and display small differences in energy. Higher means more sensitive.\n\n8 bits = 256 possible values\n4 bits = 16 possible values\n\n\nFurthermore, we have to consider type of orbit. There are two type of orbits. First, geosynchronous orbit (GSO) is that satellite matches the Earth’s rotation. Second, geostationary orbit, this orbit holds same position, usually only for communications but some sensors are geostationary.\n\nSource: American Scientist"
+  },
+  {
+    "objectID": "week1.html#applications",
+    "href": "week1.html#applications",
+    "title": "1 Introduction to Remote Sensing",
+    "section": "1.2 Applications",
+    "text": "1.2 Applications"
+  },
+  {
+    "objectID": "week1.html#personal-reflection",
+    "href": "week1.html#personal-reflection",
+    "title": "1 Introduction to Remote Sensing",
+    "section": "1.3 Personal Reflection",
+    "text": "1.3 Personal Reflection\nBefore entering CASA, I majored in cadastral science in undergraduate and had 3 years of experience working for a company that did cadastral surveying and spatial information analysis. I learned about Remote Sensing Introduction 9 years ago when I was an undergraduate. Based on this, I received training on a project to create a flood trace map when I work as a junior engineer at company.\nHowever, this module is an updated version of the knowledge I have previously learned and acquired. I was amazed at how much the resolution has improved. The module also taught us that improvements in remote sensing satellites such as the higher resolution Sentinel and Google Earth Enngine (GEE) allow for a wide range of analyzes such as object-based image detection. In this week’s module, I was able to review the basics and principles of remote sensing that I had learned in the past and learned about advanced technology."
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "2 Portfolio tools",
+    "section": "",
+    "text": "2. Portfolio tools\nThis week we will be learn about"
+  },
+  {
+    "objectID": "week3.html",
+    "href": "week3.html",
+    "title": "3 Remote sensing data",
+    "section": "",
+    "text": "This week we will learn about ‘corrections’ and ‘data joining annd enhancement’.\n\n\nSometimes images obtained by remote sensing may contain defects due to sensor, atmosphere, terrain, so pre-processing is required.\nA typical example is when Landsat7’s scan line corrector fails. It moves in a zigzag motion and the corrector normalizes the image. However, it is difficult to use with a method developed for estimating gaps, called gap filling.\n\nSource:USGS\n\nGeometric correction\nCollecting remotely sensed data can cause distortion due to viewing angle, topography (slope rather than flat areas), wind, and Earth’s rotation.\nThus, using geographic maps, other images, and GPS data from handheld devices, ground control points are identified to match known points in the image to a reference data set.\nThe model with the lowest RMSE is the best fit. Jensen sets the RMSE value to 0.5. You can usually add more GCPs to reduce the RMSE.\nThis may shift the data slightly, so the final raster needs to be resampled. Resampling methods include nearest neighbor, linear, cubic, and cubic spline.\n\n\nSource:Richard Treves\n\nAtmospheric correction\nAtmospheric correction is a process used in remote sensing to correct for the effects of the Earth’s atmosphere on the remotely sensed data. The Earth’s atmosphere is composed of various gases, particles, and water vapor, which can absorb, scatter, and reflect the electromagnetic radiation from the sun or the Earth’s surface. These atmospheric effects can distort or obscure the signals received by remote sensors, leading to errors in the interpretation of the data.\nThere are various methods for atmospheric correction, including the use of empirical models, such as the Dark Target or Deep Blue algorithms, and physical models, such as the MODTRAN or 6S models. The choice of method depends on the specific application, the sensor characteristics, and the atmospheric conditions at the time of data acquisition.\n\nSource:USGS\nEmpirical line correction\nEmpirical correction in remote sensing refers to a type of atmospheric correction that is based on statistical relationships between the remotely sensed data and ground truth measurements.\nThis methods are particularly useful for sensors that lack the spectral resolution or radiometric accuracy to accurately model the atmospheric effects using physical models.\n\nSource:Source: David P. Groeneveld\nOrtho-rectification correction\nIn satellite images, distortion occurs due to the shading effect in images taken of mountain areas with severe topography. In consideration of this distortion, all points in the data are corrected so that they have the same shape as seen from a vertical position like a map. It is called -rectification correction.\nIn order to generate orthocorrection, the image to be orthocorrected, satellite image, aerial photograph, etc., digital elevation model (DEM) of the image area to be corrected, ground control point (GCP), and auxiliary data of the image are required.\nOrtho-rectification correction can be performed using various techniques, including photogrammetry, lidar, and radar.\n\nOrthorectification creates a final product whereby each pixel in the image is depicted as if it were collected from directly overhead or as close to this as possible. In the graphic above, you can see a path through the forest going from the northwest to the southeast. On the left is the original image, and on the right is the orthorectified image. In the orthorectified version, you can see that the path is now nearly straight after the influence of topography has been removed from the image. (Graphic Credit: David DiBiase, Penn State University). Source:Apollo Mapping, 2016\nRadiometric calibration\nThis content mainly applies to optical sensor images, and image data acquisition from satellites is when light incident from the sun is reflected by an object on the surface of the earth and then detected by the observation sensor of the satellite, and sunlight is scattered and absorbed in the process of passing through the atmosphere. , is reflected, which means preprocessing to correct it.\nThe influence of the atmosphere weakens the intensity of sunlight incident on the sensor, and consequently affects the brightness of image data. In order to correct this, correction is performed using an atmospheric model, which is performed by an atmospheric model created by actual observations or calculations.\nThe atmospheric model can estimate the amount of scattering, absorption, and reflection corresponding to each wavelength and the intensity of solar incident light by inserting factors such as the altitude angle of the sun and meteorological factors at the time of observation. According to this algorithm, the brightness of the original image data value can be corrected.\n\nSource:Newcastle Univesrity\n\n\n\n\n\n\nFeathering helps to eliminate these visible seams or transitions by blending the overlapping areas of adjacent images or data sets together. The goal of feathering is to create a seamless composite image that appears as if it was collected as a single image or data set.\nAccording to Jensen\n\nWithin the overlap area an representative sample is taken\nA histogram is extracted from the base image\nIt is then applied to image to using a histogram matching algorithm\nThis gives similar brightness values of the two images\nNext feathering is conducted\n\n\nSource:Harris Geospatial\n\n\n\nThere are several methods to enhance the images. Representatively, we can enhance it through contrast enhancement. The goal of contrast enhancement is to increase the contrast between different features in the image, making it easier to distinguish between them and extract useful information. For example, we can use stretching. This technique involves expanding the range of pixel values in an image to increase the contrast between dark and light areas. This can help to enhance the visibility of subtle features in the image.\n\n\n\nSource:EarthLab"
+  },
+  {
+    "objectID": "week3.html#applications",
+    "href": "week3.html#applications",
+    "title": "3 Remote sensing data",
+    "section": "3.2 Applications",
+    "text": "3.2 Applications"
+  },
+  {
+    "objectID": "week3.html#personal-reflection",
+    "href": "week3.html#personal-reflection",
+    "title": "3 Remote sensing data",
+    "section": "3.3 Personal Reflection",
+    "text": "3.3 Personal Reflection\nIn Korea, I took the exam when I obtained a license related to surveying and geospatial information. In this test, the problem of image correction was frequently presented in the remote sensing subject. Thanks to this, I was aware of the importance of correction in performing remote sensing. In fact, after joining the company, I felt that it was more important to obtain reliable data by correcting it later than collecting satellite data. With this week’s class, I once again thought about the importance of image correction. Before this week’s class, I knew about the basic principles, but I was able to learn exactly why each correction is done and how it is done."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CASA0023",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "week5.html#summary",
+    "href": "week5.html#summary",
+    "title": "5  Introduction to Google Earth Engine",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary\nIn this week, we will figure out “What is Google Earth Engine(GEE)” and\nGEE is “Geospatial” processing service. It permits geospatial analysis at scale.\n\n5.1.1 The set up of GEE\nGEE has a image data as a raster(has bands) and Feature as a vector. Feature has geometry and attributes. Furthermore, Image stack called ImageCollection annd Feature stack called FeatureCollection.\nGEE uses javascript(one of website programming language)\n\n5.1.1.1 Client vs Server\nWithin GEE we have code that runs on the client side and server side. Client side is the browser. Server side is on the server where data is stored. Any thing that has ee in front of it is stored on the server.\n\nSource: pintrest/codeboxx\n\n\n5.1.1.2 Scale\nScale in GEE refers to pixel resolution. It is set by the output(not by input). GEE collects the image to fit a 256x256 grid and GEE select the pyramid with the closest scale to that of your analysis and re-samples as needed. When we do re-sample, it uses nearest neighbor by default.\n\nScale. Source: GEE\nLet’s see an example, first load an image\nvar image = ee.Image(‘LANDSAT/LC08/C01/T1/LC08_044034_20140318’); var rgbVis = { bands: [‘B4’, ‘B3’, ‘B2’], min: 5964.56, max: 11703.44 }; Map.addLayer(image, rgbVis, “Landsat 8”);\nScale. Source: GEE\nNext, select a band 4 and then change the scale\nvar band_4 = image.select(‘B4’); var printAtScale = function(scale) { print(‘Pixel value at’+scale+’ meters scale’, band_4.reduceRegion({ reducer: ee.Reducer.first(), geometry: band_4.geometry().centroid(), // The scale determines the pyramid level from which to pull the input scale: scale }).get(‘B4’)); }; printAtScale(10); // 8883 printAtScale(30); // 8883 printAtScale(50); // 8337 printAtScale(70); // 9215 printAtScale(200); // 8775 printAtScale(500); // 8300 Copy Code\nSource: Code example\n\n\n5.1.1.3 Projection\nGEE converts all data into the Mercator projection(EPSG:3867). As a result, the operations of the projection are decided by the output.\n\nSource: GEE\n\n\n\n5.1.2 GEE in action(how we use it)\n\n5.1.2.1 Building blocks of GEE\nObject can be vector, raster, feature, string and number. Each of objects belong to a class and each class have specific functions.\n\nSource: GEE\n\n\n5.1.2.2 What does GEE look like\n\nSource: Form of GEE\n\n\n5.1.2.3 Typical processes in GEE\nAfter we have lots of images(raster data) and these belong to an imagecollection. We can process geometry operations, methods and applications.\n\nGeometry operations\n\nJoins\nZonal statistics\nFiltering of images or specific values\n\nMethods\n\nMachine learning\nSupervised and unsupervised classification\nDeep learning with Tensor Flow\nExploring relationship between variables\nExploring relationship between variables\n\nApplications\n\nOnline charts\nScalable geopspatial applications with GEE data\nThese let us query the data with a user interface that then updates the results\n\n\n\n\n5.1.2.4 Reducing images by region\nWe load an image collection from a dates and place and want to reduce the collection to the extreme values for each pixel. In GEE this is termed reduceRegion(). If we want to use feature collection with many polygons we can do it by image.reduceRegions().\n\nSource: GEE\n\n\n5.1.2.5 Reducing images by neighbourhoods\nWe can use image neighbors instead of using polygons to reduce the collection.\n\nSource: GEE\n\n\n5.1.2.6 Joins and filtering\nWe can join image collections and feature collections. To use joins we have to put them within a filter.\n\nThe leftField is the index (or attribute) in the primary data\nThe rightField is the secondary data"
+  },
+  {
+    "objectID": "week5.html#applications",
+    "href": "week5.html#applications",
+    "title": "5  Introduction to Google Earth Engine",
+    "section": "5.2 Applications",
+    "text": "5.2 Applications"
+  },
+  {
+    "objectID": "week5.html#personal-reflection",
+    "href": "week5.html#personal-reflection",
+    "title": "5  Introduction to Google Earth Engine",
+    "section": "5.3 Personal Reflection",
+    "text": "5.3 Personal Reflection\nThis week we learned about Google Earth Engine (GEE). In fact, before I studied GEE, I had Google Earth installed on my personal computer. The reason is that I wanted to see landmarks around the world through 3D building information provided by Google. At this time, for the first time, I found out that Google Earth is basically using LandSAT8(What we learned in previous week) satellite images for the entire earth, although it varies depending on the region. In this lecture, I created GEE account and personally experienced its advantages. I was surprised by the fact that if you sign up for GEE, you can program yourself and that anyone can view satellite data from around the world free of charge. I was also surprised that there was an easy to follow instruction manual."
+  },
+  {
+    "objectID": "week7.html#summary",
+    "href": "week7.html#summary",
+    "title": "7  Classification the big questions and accuracy",
+    "section": "7.1 Summary",
+    "text": "7.1 Summary\nThis week covered more classification methods, how to assess accuracy of classifers and importance of accounting for spatial dependence in classifiers.\n\n7.1.1 Landcover classification methods\n\n7.1.1.1 Object-based image analysis(OBIA)\n\n\n7.1.1.2 Sub pixel analysis\n\n\n7.1.1.3 Beyond remote sensing and into machine learning\n\n\n\n7.1.2 \n\n7.1.2.1 Accuracy assessment\n\n\n7.1.2.2 Spatial cross validation"
+  },
+  {
+    "objectID": "week7.html#applications",
+    "href": "week7.html#applications",
+    "title": "7  Classification the big questions and accuracy",
+    "section": "7.2 Applications",
+    "text": "7.2 Applications"
+  },
+  {
+    "objectID": "week7.html#personal-reflection",
+    "href": "week7.html#personal-reflection",
+    "title": "7  Classification the big questions and accuracy",
+    "section": "7.3 Personal Reflection",
+    "text": "7.3 Personal Reflection"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "RS notebook",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "index.html#who-am-i",
+    "href": "index.html#who-am-i",
+    "title": "RS notebook",
+    "section": "Who am I?",
+    "text": "Who am I?"
+  },
+  {
+    "objectID": "index.html#brief-introduce-about-this-learning-diary",
+    "href": "index.html#brief-introduce-about-this-learning-diary",
+    "title": "RS notebook",
+    "section": "Brief introduce about this learning Diary",
+    "text": "Brief introduce about this learning Diary"
+  }
+]

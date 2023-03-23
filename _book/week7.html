@@ -8,7 +8,7 @@
 
 <meta name="author" content="Sohyun Park">
 
-<title>RS notebook - 7&nbsp; Classification the big questions and accuracy</title>
+<title>RS notebook - 7&nbsp; Classification2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification the big questions and accuracy</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification2</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Hello!</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -126,12 +126,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification</span></a>
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification1</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week7.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification the big questions and accuracy</span></a>
+  <a href="./week7.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification2</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -155,8 +155,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">7.1</span>  Summary</a>
   <ul class="collapse">
-  <li><a href="#landcover-classification-methods" id="toc-landcover-classification-methods" class="nav-link" data-scroll-target="#landcover-classification-methods"><span class="toc-section-number">7.1.1</span>  Landcover classification methods</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="toc-section-number">7.1.2</span>  </a></li>
+  <li><a href="#object-based-image-analysisobia" id="toc-object-based-image-analysisobia" class="nav-link" data-scroll-target="#object-based-image-analysisobia"><span class="toc-section-number">7.1.1</span>  Object-based image analysis(OBIA)</a></li>
+  <li><a href="#sub-pixel-classificationspectral-mixture-analysis-sma-linear-spectral-unmixing" id="toc-sub-pixel-classificationspectral-mixture-analysis-sma-linear-spectral-unmixing" class="nav-link" data-scroll-target="#sub-pixel-classificationspectral-mixture-analysis-sma-linear-spectral-unmixing"><span class="toc-section-number">7.1.2</span>  Sub pixel classification(Spectral Mixture Analysis (SMA)/ Linear spectral unmixing)</a></li>
+  <li><a href="#accuracy-assessment" id="toc-accuracy-assessment" class="nav-link" data-scroll-target="#accuracy-assessment"><span class="toc-section-number">7.1.3</span>  Accuracy assessment</a></li>
+  <li><a href="#spatial-cross-validation" id="toc-spatial-cross-validation" class="nav-link" data-scroll-target="#spatial-cross-validation"><span class="toc-section-number">7.1.4</span>  Spatial cross validation</a></li>
   </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">7.2</span>  Applications</a></li>
   <li><a href="#personal-reflection" id="toc-personal-reflection" class="nav-link" data-scroll-target="#personal-reflection"><span class="toc-section-number">7.3</span>  Personal Reflection</a></li>
@@ -168,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification the big questions and accuracy</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification2</span></h1>
 </div>
 
 
@@ -192,26 +194,45 @@ ul.task-list li input[type="checkbox"] {
 <section id="summary" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.1</span> Summary</h2>
 <p>This week covered more classification methods, how to assess accuracy of classifers and importance of accounting for spatial dependence in classifiers.</p>
-<section id="landcover-classification-methods" class="level3" data-number="7.1.1">
-<h3 data-number="7.1.1" class="anchored" data-anchor-id="landcover-classification-methods"><span class="header-section-number">7.1.1</span> Landcover classification methods</h3>
-<section id="object-based-image-analysisobia" class="level4" data-number="7.1.1.1">
-<h4 data-number="7.1.1.1" class="anchored" data-anchor-id="object-based-image-analysisobia"><span class="header-section-number">7.1.1.1</span> Object-based image analysis(OBIA)</h4>
+<section id="object-based-image-analysisobia" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="object-based-image-analysisobia"><span class="header-section-number">7.1.1</span> Object-based image analysis(OBIA)</h3>
+<ul>
+<li><p>Simple Linear Iterative Clustering (SLIC) Algorithm = the most common method for superpixel generation</p></li>
+<li><p>Supercells are consider shapes (rather than cells) based on the homogeneity or heterogeneity of cells</p></li>
+<li><p>Consists of two parts; Segmentation and classification</p></li>
+<li><p><strong>Segmentation:</strong> OBIA segments an image grouping small pixels together into vector objects based on similarity&nbsp;</p>
+<p><img src="images/paste-68F7897D.png" class="img-fluid"></p>
+<p>Source:<a href="https://jakubnowosad.com/ogh2021/#10">Nowosad 2021</a></p></li>
+</ul>
 </section>
-<section id="sub-pixel-analysis" class="level4" data-number="7.1.1.2">
-<h4 data-number="7.1.1.2" class="anchored" data-anchor-id="sub-pixel-analysis"><span class="header-section-number">7.1.1.2</span> Sub pixel analysis</h4>
+<section id="sub-pixel-classificationspectral-mixture-analysis-sma-linear-spectral-unmixing" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="sub-pixel-classificationspectral-mixture-analysis-sma-linear-spectral-unmixing"><span class="header-section-number">7.1.2</span> Sub pixel classification(Spectral Mixture Analysis (SMA)/ Linear spectral unmixing)</h3>
+<p>What if we have <strong>a range of land cover types within one pixel</strong>? How can we classify it? Subpixel analysis overcome this limitation by estimating the proportion of different land cover types within each pixel.</p>
+<p><img src="images/paste-BAB118A3.png" class="img-fluid"></p>
+<p>Source:<a href="https://www.tandfonline.com/doi/pdf/10.1080/01431161.2017.1346403?needAccess=true&amp;">MacLachlan et al.&nbsp;2017</a></p>
 </section>
-<section id="beyond-remote-sensing-and-into-machine-learning" class="level4" data-number="7.1.1.3">
-<h4 data-number="7.1.1.3" class="anchored" data-anchor-id="beyond-remote-sensing-and-into-machine-learning"><span class="header-section-number">7.1.1.3</span> Beyond remote sensing and into machine learning</h4>
+<section id="accuracy-assessment" class="level3" data-number="7.1.3">
+<h3 data-number="7.1.3" class="anchored" data-anchor-id="accuracy-assessment"><span class="header-section-number">7.1.3</span> Accuracy assessment</h3>
+<p>Accuracy is important because it determines the quality of the information. So, after producing and output wee need to assign a accuracy value to it(common to machine learning).</p>
+<p>In remote sensing we focus on:</p>
+<ul>
+<li><p><strong>Producer accuracy</strong>: the fraction of correctly classified pixels (TP) compared to ground truth data(TP+FN)</p></li>
+<li><p><strong>User accuracy</strong>: the fraction of correctly classified pixels (TP) relative to all others classified as a particular land cover(TP+FP)</p></li>
+<li><p><strong>Overall accuracy</strong>: epresents the combined fraction of correctly classified pixels (TP +TN) across all land cover types (TP+FP+FN+TN)</p>
+<p><img src="images/paste-FF761340.png" class="img-fluid"></p></li>
+</ul>
+<p>Source:<a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-3/61/2018/isprs-archives-XLII-3-61-2018.pdf">Barsi et al.&nbsp;2018 Accuracy Dimensions in Remote Sensing</a></p>
 </section>
-</section>
-<section id="section" class="level3" data-number="7.1.2">
-<h3 data-number="7.1.2" class="anchored" data-anchor-id="section"><span class="header-section-number">7.1.2</span> </h3>
-<section id="accuracy-assessment" class="level4" data-number="7.1.2.1">
-<h4 data-number="7.1.2.1" class="anchored" data-anchor-id="accuracy-assessment"><span class="header-section-number">7.1.2.1</span> Accuracy assessment</h4>
-</section>
-<section id="spatial-cross-validation" class="level4" data-number="7.1.2.2">
-<h4 data-number="7.1.2.2" class="anchored" data-anchor-id="spatial-cross-validation"><span class="header-section-number">7.1.2.2</span> Spatial cross validation</h4>
-</section>
+<section id="spatial-cross-validation" class="level3" data-number="7.1.4">
+<h3 data-number="7.1.4" class="anchored" data-anchor-id="spatial-cross-validation"><span class="header-section-number">7.1.4</span> Spatial cross validation</h3>
+<ul>
+<li><p>Spatially partition the folded data</p></li>
+<li><p>Dealing with spatial autocorrelation by using k-means clustering in each fold</p></li>
+<li><p>Support Vector Machine</p></li>
+<li><p>Not available in GEE (but available in R)</p>
+<p><img src="images/paste-8645EBBF.png" class="img-fluid"></p></li>
+</ul>
+<p>Spatial visualization of selected test and training observations for cross-validation of one repetition. Random (upper row) and spatial partitioning (lower row). Source:<a href="https://geocompr.robinlovelace.net/spatial-cv.html">Lovelace et al.&nbsp;2022</a></p>
 </section>
 </section>
 <section id="applications" class="level2" data-number="7.2">
@@ -219,6 +240,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="personal-reflection" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="personal-reflection"><span class="header-section-number">7.3</span> Personal Reflection</h2>
+<p>This week we learned advanced classifier methods and indicators for accuracy assessmennt. I really enjoyed to try out landcover classification on GEE in the practical. However, on the other hand, I thought that the technology to accurately detect and classify objects using these innovative methods could be abused and endanger human life or privacy. Of course, most of these technologies are used in good ways to improve the environment and the quality of life of citizens. However, after learning about ethics as a data scientist in the first semester and learning examples of side effects caused by data processing and misuse of technology, this week’s lecture gave me an opportunity to think about it once again.</p>
 
 
 </section>
@@ -360,7 +382,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./week6.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification1</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

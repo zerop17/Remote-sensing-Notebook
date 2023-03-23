@@ -3,3 +3,58 @@ title: "Temperature and policy"
 author: "Sohyun Park"
 editor: visual
 ---
+
+## Summary
+
+This week\'s lecture we will learn aboutUrban Heat Island (UHI) phenomenom through several policy case studies in different cities and countries.
+
+### What is Urban Heat Island?
+
+-   Urban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas due to human activities 
+
+    ![](images/paste-5F59953D.png)
+
+    Source:[EARTH.ORG](https://earth.org/data_visualization/urban-heat-islands/)
+
+-   There is two main factors
+
+    -   More dark surfaces that retain heat
+
+    -   Less vegetation that cools the environment
+
+    ![](images/paste-13A87A48.png)
+
+    Source here:[Cidco Smartcity](https://niua.org/cidco/urban-heat-island-effect-causes-and-remedies/)
+
+-   Basic solution is making more green spaces in urban area
+
+-   In Barcelona, they have implemented '**Superblocks'** startegy
+
+    -   Increase pedestrian traffic
+
+    -   Reduce nitrogen oxide
+
+    -   Reduce noise pollurion
+
+    -   Increase business
+
+    ![](images/paste-1DC2658B.png)
+
+    Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities. Image: regenerativedesign.world](https://regenerativedesign.world/superblocks/?utm_source=rss&utm_medium=rss&utm_campaign=superblocks)
+
+```{=html}
+<!-- -->
+```
+-   In western Sydney, they have implemented '**Cool roads trail'** startegy
+
+    -   Reflective carparks to reduce surface temperatures
+
+    -   Reduce nitrogen oxide
+
+    -   Reduce noise pollurion
+
+    -   Increase business
+
+## Applications
+
+## Personal Reflection

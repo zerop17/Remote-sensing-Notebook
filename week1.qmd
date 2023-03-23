@@ -101,7 +101,3 @@ Source: [American Scientist](https://www.americanscientist.org/article/fifty-yea
 ## Applications
 
 ## Personal Reflection
-
-Before entering CASA, I majored in cadastral science in undergraduate and had 3 years of experience working for a company that did cadastral surveying and spatial information analysis. I learned about Remote Sensing Introduction 9 years ago when I was an undergraduate. Based on this, I received training on a project to create a flood trace map when I work as a junior engineer at company.
-
-However, this module is an updated version of the knowledge I have previously learned and acquired. I was amazed at how much the resolution has improved. The module also taught us that improvements in remote sensing satellites such as the higher resolution Sentinel and Google Earth Enngine (GEE) allow for a wide range of analyzes such as object-based image detection. In this week's module, I was able to review the basics and principles of remote sensing that I had learned in the past and learned about advanced technology.

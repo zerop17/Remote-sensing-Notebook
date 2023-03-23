@@ -1,9 +1,9 @@
-# Preface {.unnumbered}
-
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+# Hello! {.unnumbered}
 
 ## Who am I?
 
+I'm Sohyun Park and I'm a Master's student of Urban Spatial Science in the CASA(Center for Advanced Spatial Analysis. I joined the company(LX ; a public organization that has been offering survey services and various cadastral spatial data science since 1977) as an engineer in 2019.
+
 ## Brief introduce about this learning Diary
+
+In this term, I'm taking a module **CASA0023: Remotely Sensing Cities and Environment.** This website contains weekly learning material with Summary, Applications and Personal Reflection.

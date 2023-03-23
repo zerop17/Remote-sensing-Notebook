@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sohyun Park">
+
+<title>RS notebook - 3&nbsp; Remote sensing data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./week4.html" rel="next">
+<link href="./week2.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Remote sensing data</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">RS notebook</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Hello!</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Remote Sensing</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Portfolio tools</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week3.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Remote sensing data</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy applications</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Introduction to Google Earth Engine</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification1</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification2</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week8.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">3.1</span>  Summary</a>
+  <ul class="collapse">
+  <li><a href="#corrections" id="toc-corrections" class="nav-link" data-scroll-target="#corrections"><span class="toc-section-number">3.1.1</span>  Corrections</a></li>
+  <li><a href="#data-joining-and-enhancement" id="toc-data-joining-and-enhancement" class="nav-link" data-scroll-target="#data-joining-and-enhancement"><span class="toc-section-number">3.1.2</span>  Data joining and enhancement</a></li>
+  </ul></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">3.2</span>  Applications</a></li>
+  <li><a href="#personal-reflection" id="toc-personal-reflection" class="nav-link" data-scroll-target="#personal-reflection"><span class="toc-section-number">3.3</span>  Personal Reflection</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Remote sensing data</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sohyun Park </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="summary" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">3.1</span> Summary</h2>
+<p>This week we will learn about ‘corrections’ and ‘data joining annd enhancement’.</p>
+<section id="corrections" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="corrections"><span class="header-section-number">3.1.1</span> Corrections</h3>
+<p>Sometimes images obtained by remote sensing may contain defects due to sensor, atmosphere, terrain, so pre-processing is required.</p>
+<p>A typical example is when Landsat7’s scan line corrector fails. It moves in a zigzag motion and the corrector normalizes the image. However, it is difficult to use with a method developed for estimating gaps, called gap filling.</p>
+<p><img src="images/paste-99A45A8B.png" class="img-fluid"></p>
+<p>Source:<a href="https://www.usgs.gov/landsat-missions/landsat-7?qt-science_support_page_related_con=0#qt-science_support_page_related_con">USGS</a></p>
+<ul>
+<li><p>Geometric correction</p>
+<p>Collecting remotely sensed data can cause distortion due to viewing angle, topography (slope rather than flat areas), wind, and Earth’s rotation.</p>
+<p>Thus, using geographic maps, other images, and GPS data from handheld devices, ground control points are identified to match known points in the image to a reference data set.</p>
+<p>The model with the lowest RMSE is the best fit. Jensen sets the RMSE value to 0.5. You can usually add more GCPs to reduce the RMSE.</p>
+<p>This may shift the data slightly, so the final raster needs to be resampled. Resampling methods include nearest neighbor, linear, cubic, and cubic spline.</p></li>
+</ul>
+<p><img src="images/paste-0481E9FB.png" class="img-fluid"></p>
+<p>Source:<a href="https://www2.geog.soton.ac.uk/users/trevesr/obs/rseo/geometric_correction.html">Richard Treves</a></p>
+<ul>
+<li><p>Atmospheric correction</p>
+<p>Atmospheric correction is a process used in remote sensing to correct for the effects of the Earth’s atmosphere on the remotely sensed data. The Earth’s atmosphere is composed of various gases, particles, and water vapor, which can absorb, scatter, and reflect the electromagnetic radiation from the sun or the Earth’s surface. These atmospheric effects can distort or obscure the signals received by remote sensors, leading to errors in the interpretation of the data.</p>
+<p>There are various methods for atmospheric correction, including the use of empirical models, such as the Dark Target or Deep Blue algorithms, and physical models, such as the MODTRAN or 6S models. The choice of method depends on the specific application, the sensor characteristics, and the atmospheric conditions at the time of data acquisition.</p>
+<p><img src="images/paste-6860930B.png" class="img-fluid"></p>
+<p>Source:<a href="https://medium.com/nerd-for-tech/atmospheric-correction-of-satellite-images-using-python-42128504afc3">USGS</a></p></li>
+<li><p>Empirical line correction</p>
+<p>Empirical correction in remote sensing refers to a type of atmospheric correction that is based on statistical relationships between the remotely sensed data and ground truth measurements.</p>
+<p>This methods are particularly useful for sensors that lack the spectral resolution or radiometric accuracy to accurately model the atmospheric effects using physical models.</p>
+<p><img src="images/paste-97BC21C1.png" class="img-fluid"></p>
+<p>Source:<a href="https://www.researchgate.net/figure/Example-of-an-empirical-line-using-two-targets-of-contrasting-albedo_fig1_241396033">Source: David P. Groeneveld</a></p></li>
+<li><p>Ortho-rectification correction</p>
+<p>In satellite images, distortion occurs due to the shading effect in images taken of mountain areas with severe topography. In consideration of this distortion, all points in the data are corrected so that they have the same shape as seen from a vertical position like a map. It is called -rectification correction.</p>
+<p>In order to generate orthocorrection, the image to be orthocorrected, satellite image, aerial photograph, etc., digital elevation model (DEM) of the image area to be corrected, ground control point (GCP), and auxiliary data of the image are required.</p>
+<p>Ortho-rectification correction can be performed using various techniques, including photogrammetry, lidar, and radar.</p>
+<p><img src="images/paste-A1556D99.png" class="img-fluid"></p>
+<p>Orthorectification creates a final product whereby each pixel in the image is depicted as if it were collected from directly overhead or as close to this as possible. In the graphic above, you can see a path through the forest going from the northwest to the southeast. On the left is the original image, and on the right is the orthorectified image. In the orthorectified version, you can see that the path is now nearly straight after the influence of topography has been removed from the image. (Graphic Credit: David DiBiase, Penn State University). Source:<a href="https://apollomapping.com/blog/g-faq-orthorectification-part">Apollo Mapping, 2016</a></p></li>
+<li><p>Radiometric calibration</p>
+<p>This content mainly applies to optical sensor images, and image data acquisition from satellites is when light incident from the sun is reflected by an object on the surface of the earth and then detected by the observation sensor of the satellite, and sunlight is scattered and absorbed in the process of passing through the atmosphere. , is reflected, which means preprocessing to correct it.</p>
+<p>The influence of the atmosphere weakens the intensity of sunlight incident on the sensor, and consequently affects the brightness of image data. In order to correct this, correction is performed using an atmospheric model, which is performed by an atmospheric model created by actual observations or calculations.</p>
+<p>The atmospheric model can estimate the amount of scattering, absorption, and reflection corresponding to each wavelength and the intensity of solar incident light by inserting factors such as the altitude angle of the sun and meteorological factors at the time of observation. According to this algorithm, the brightness of the original image data value can be corrected.</p>
+<p><img src="images/paste-F675F01F.png" class="img-fluid"></p>
+<p>Source:<a href="https://www.ncl.ac.uk/tcmweb/bilko/module7/lesson3.pdf">Newcastle Univesrity</a></p></li>
+</ul>
+</section>
+<section id="data-joining-and-enhancement" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="data-joining-and-enhancement"><span class="header-section-number">3.1.2</span> Data joining and enhancement</h3>
+<section id="feathering" class="level4" data-number="3.1.2.1">
+<h4 data-number="3.1.2.1" class="anchored" data-anchor-id="feathering"><span class="header-section-number">3.1.2.1</span> Feathering</h4>
+<p>Feathering helps to eliminate these visible seams or transitions by blending the overlapping areas of adjacent images or data sets together. The goal of feathering is to create a seamless composite image that appears as if it was collected as a single image or data set.</p>
+<p>According to Jensen</p>
+<ul>
+<li><p>Within the overlap area an representative sample is taken</p></li>
+<li><p>A histogram is extracted from the base image</p></li>
+<li><p>It is then applied to image to using a <strong>histogram matching algorithm</strong></p></li>
+<li><p>This gives similar brightness values of the two images</p></li>
+<li><p>Next feathering is conducted</p></li>
+</ul>
+<p><img src="images/paste-F98F079E.png" class="img-fluid"></p>
+<p>Source:<a href="https://www.l3harrisgeospatial.com/docs/mosaicseamless.html">Harris Geospatial</a></p>
+</section>
+<section id="image-enhancement" class="level4" data-number="3.1.2.2">
+<h4 data-number="3.1.2.2" class="anchored" data-anchor-id="image-enhancement"><span class="header-section-number">3.1.2.2</span> Image enhancement</h4>
+<p>There are several methods to enhance the images. Representatively, we can enhance it through contrast enhancement. The goal of contrast enhancement is to increase the contrast between different features in the image, making it easier to distinguish between them and extract useful information. For example, we can use stretching. This technique involves expanding the range of pixel values in an image to increase the contrast between dark and light areas. This can help to enhance the visibility of subtle features in the image.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-F110336A.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Source:<a href="https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/intro-naip/">EarthLab</a></figcaption><p></p>
+</figure>
+</div>
+</section>
+</section>
+</section>
+<section id="applications" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">3.2</span> Applications</h2>
+</section>
+<section id="personal-reflection" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="personal-reflection"><span class="header-section-number">3.3</span> Personal Reflection</h2>
+<p>In Korea, I took the exam when I obtained a license related to surveying and geospatial information. In this test, the problem of image correction was frequently presented in the remote sensing subject. Thanks to this, I was aware of the importance of correction in performing remote sensing. In fact, after joining the company, I felt that it was more important to obtain reliable data by correcting it later than collecting satellite data. With this week’s class, I once again thought about the importance of image correction. Before this week’s class, I knew about the basic principles, but I was able to learn exactly why each correction is done and how it is done.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./week2.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Portfolio tools</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./week4.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy applications</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,5 +1,5 @@
 ---
-title: "Classification"
+title: "Classification1"
 author: "Sohyun Park"
 editor: visual
 ---
@@ -62,9 +62,8 @@ Source:[Seema Singh](https://towardsdatascience.com/understanding-the-bias-varia
 
     -   Tree score = SSR + tree penalty (alpha) \* T (number of leaves) **Lower means better**
 
-```{=html}
 <!-- -->
-```
+
 -   There is another method... **Random Forest**
 
     -   Ensemble machine learning model
@@ -84,7 +83,7 @@ Source:[Rosaria Silipo](https://towardsdatascience.com/from-a-single-decision-tr
 There are three types of image classification.
 
 | Supervised Classification                                             | Unsupervised Classification |
-|-------------------------------------------|---------------------------------------|
+|--------------------------------------------------|---------------------|
 | Pattern recognition or machine learning                               | clustering                  |
 | Parametric (normal distribution) : Maximum likelihood                 | k-means                     |
 | non parametric (not normal) : Support Vector Machine, Neural Networks | ISODATA                     |

@@ -1,5 +1,5 @@
 ---
-title: "Classification the big questions and accuracy"
+title: "Classification2"
 author: "Sohyun Park"
 editor: visual
 ---
@@ -8,20 +8,60 @@ editor: visual
 
 This week covered more classification methods, how to assess accuracy of classifers and importance of accounting for spatial dependence in classifiers.
 
-### Landcover classification methods
+### Object-based image analysis(OBIA)
 
-#### Object-based image analysis(OBIA)
+-   Simple Linear Iterative Clustering (SLIC) Algorithm = the most common method for superpixel generation
 
-#### Sub pixel analysis
+-   Supercells are consider shapes (rather than cells) based on the homogeneity or heterogeneity of cells
 
-#### Beyond remote sensing and into machine learning
+-   Consists of two parts; Segmentation and classification
 
-### 
+-   **Segmentation:** OBIA segments an image grouping small pixels together into vector objects based on similarity 
 
-#### Accuracy assessment
+    ![](images/paste-68F7897D.png)
 
-#### Spatial cross validation
+    Source:[Nowosad 2021](https://jakubnowosad.com/ogh2021/#10)
+
+### Sub pixel classification(Spectral Mixture Analysis (SMA)/ Linear spectral unmixing)
+
+What if we have **a range of land cover types within one pixel**? How can we classify it? Subpixel analysis overcome this limitation by estimating the proportion of different land cover types within each pixel.
+
+![](images/paste-BAB118A3.png)
+
+Source:[MacLachlan et al. 2017](https://www.tandfonline.com/doi/pdf/10.1080/01431161.2017.1346403?needAccess=true&)
+
+### Accuracy assessment
+
+Accuracy is important because it determines the quality of the information. So, after producing and output wee need to assign a accuracy value to it(common to machine learning).
+
+In remote sensing we focus on:
+
+-   **Producer accuracy**: the fraction of correctly classified pixels (TP) compared to ground truth data(TP+FN)
+
+-   **User accuracy**: the fraction of correctly classified pixels (TP) relative to all others classified as a particular land cover(TP+FP)
+
+-   **Overall accuracy**: epresents the combined fraction of correctly classified pixels (TP +TN) across all land cover types (TP+FP+FN+TN)
+
+    ![](images/paste-FF761340.png)
+
+Source:[Barsi et al. 2018 Accuracy Dimensions in Remote Sensing](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-3/61/2018/isprs-archives-XLII-3-61-2018.pdf)
+
+### Spatial cross validation
+
+-   Spatially partition the folded data
+
+-   Dealing with spatial autocorrelation by using k-means clustering in each fold
+
+-   Support Vector Machine
+
+-   Not available in GEE (but available in R)
+
+    ![](images/paste-8645EBBF.png)
+
+Spatial visualization of selected test and training observations for cross-validation of one repetition. Random (upper row) and spatial partitioning (lower row). Source:[Lovelace et al. 2022](https://geocompr.robinlovelace.net/spatial-cv.html)
 
 ## Applications
 
 ## Personal Reflection
+
+This week we learned advanced classifier methods and indicators for accuracy assessmennt. I really enjoyed to try out landcover classification on GEE in the practical. However, on the other hand, I thought that the technology to accurately detect and classify objects using these innovative methods could be abused and endanger human life or privacy. Of course, most of these technologies are used in good ways to improve the environment and the quality of life of citizens. However, after learning about ethics as a data scientist in the first semester and learning examples of side effects caused by data processing and misuse of technology, this week's lecture gave me an opportunity to think about it once again.

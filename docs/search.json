@@ -65,9 +65,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "CASA0023",
+    "title": "RS notebook",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Hello!"
   },
   {
     "objectID": "week8.html#summary",
@@ -187,5 +187,19 @@
     "title": "6  Classification1",
     "section": "6.3 Personal Reflection",
     "text": "6.3 Personal Reflection\nAs a surveying engineer, I have always been obsessed with accurate figures. This background is why it is important to choose the model with the highest accuracy. And even in the real world, it’s common to prioritize accuracy because most of us aim for profit. In this week’s lesson, I learned that classification methods fundamentally analyze data differently, which affects the ability to build accurate models. Although I did not fully understand the mathematical principles of each classification method, my goal is to build a model that is close to perfection by understanding it more clearly. However, in the field of social science research, since there is a possibility of understanding a phenomenon and inducing certain results rather than simply accurately predicting a phenomenon, interpretability should also be considered."
+  },
+  {
+    "objectID": "index.html#who-am-i",
+    "href": "index.html#who-am-i",
+    "title": "RS notebook",
+    "section": "Who am I?",
+    "text": "Who am I?\nI’m Sohyun Park and I’m a Master’s student of Urban Spatial Science in the CASA(Center for Advanced Spatial Analysis. I joined the company(LX ; a public organization that has been offering survey services and various cadastral spatial data science since 1977) as an engineer in 2019."
+  },
+  {
+    "objectID": "index.html#brief-introduce-about-this-learning-diary",
+    "href": "index.html#brief-introduce-about-this-learning-diary",
+    "title": "RS notebook",
+    "section": "Brief introduce about this learning Diary",
+    "text": "Brief introduce about this learning Diary\nIn this term, I’m taking a module CASA0023: Remotely Sensing Cities and Environment. This website contains weekly learning material with Summary, Applications and Personal Reflection."
   }
 ]

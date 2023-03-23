@@ -42,8 +42,37 @@ This week\'s lecture we will learn aboutUrban Heat Island (UHI) phenomenom throu
 
     Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities. Image: regenerativedesign.world](https://regenerativedesign.world/superblocks/?utm_source=rss&utm_medium=rss&utm_campaign=superblocks)
 
-### What about the data?
+```{=html}
+<!-- -->
+```
+-   In western Sydney, they have implemented '**Cool Roads Trail'** startegy
 
-## Applications
+    -   Surface coating did not systematically reduce air temperature during the day or night
+
+    -   Ambient air temperatures were not lowered as a result of coating roads and carparks, which can potentially be a matter of scale
+
+        ![](images/paste-72C7D205.png)
+
+Source:[Pfautsch, S., & Wujeska-Klause, A. (2021). Cool Roads Trial 2021](https://researchdirect.westernsydney.edu.au/islandora/object/uws%3A60039)
+
+### What data do we need?
+
+-   EO data(eg.Landsat 8 TIRS Collection 2)
+
+-   Meteorological data(Temperature/Wind/Precipitation)
+
+-   Spatial data from OpenStreetMap
+
+-   Census data
+
+### Making sense of this
+
+Before implement the policy, we have to think about equal access/ distribution or equitable access / distribution or providing environmental justice.
+
+![](images/paste-4B512DAE.png)
+
+Source:[Nikki Erdmann](https://achievebrowncounty.org/2021/05/defining-equity-equality-and-justice/)
+
+## Aplications
 
 ## Personal Reflection

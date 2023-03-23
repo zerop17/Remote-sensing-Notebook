@@ -2,14 +2,14 @@
   {
     "objectID": "week4.html#applications",
     "href": "week4.html#applications",
-    "title": "4 Policy applications",
+    "title": "4  Policy applications",
     "section": "4.2 Applications",
     "text": "4.2 Applications"
   },
   {
     "objectID": "week4.html#personal-reflection",
     "href": "week4.html#personal-reflection",
-    "title": "4 Policy applications",
+    "title": "4  Policy applications",
     "section": "4.3 Personal Reflection",
     "text": "4.3 Personal Reflection"
   },
@@ -23,16 +23,16 @@
   {
     "objectID": "week1.html#applications",
     "href": "week1.html#applications",
-    "title": "1 Introduction to Remote Sensing",
+    "title": "1  Introduction to Remote Sensing",
     "section": "1.2 Applications",
     "text": "1.2 Applications"
   },
   {
     "objectID": "week1.html#personal-reflection",
     "href": "week1.html#personal-reflection",
-    "title": "1 Introduction to Remote Sensing",
+    "title": "1  Introduction to Remote Sensing",
     "section": "1.3 Personal Reflection",
-    "text": "1.3 Personal Reflection\nBefore entering CASA, I majored in cadastral science in undergraduate and had 3 years of experience working for a company that did cadastral surveying and spatial information analysis. I learned about Remote Sensing Introduction 9 years ago when I was an undergraduate. Based on this, I received training on a project to create a flood trace map when I work as a junior engineer at company.\nHowever, this module is an updated version of the knowledge I have previously learned and acquired. I was amazed at how much the resolution has improved. The module also taught us that improvements in remote sensing satellites such as the higher resolution Sentinel and Google Earth Enngine (GEE) allow for a wide range of analyzes such as object-based image detection. In this week’s module, I was able to review the basics and principles of remote sensing that I had learned in the past and learned about advanced technology."
+    "text": "1.3 Personal Reflection"
   },
   {
     "objectID": "week2.html",
@@ -51,14 +51,14 @@
   {
     "objectID": "week3.html#applications",
     "href": "week3.html#applications",
-    "title": "3 Remote sensing data",
+    "title": "3  Remote sensing data",
     "section": "3.2 Applications",
     "text": "3.2 Applications"
   },
   {
     "objectID": "week3.html#personal-reflection",
     "href": "week3.html#personal-reflection",
-    "title": "3 Remote sensing data",
+    "title": "3  Remote sensing data",
     "section": "3.3 Personal Reflection",
     "text": "3.3 Personal Reflection\nIn Korea, I took the exam when I obtained a license related to surveying and geospatial information. In this test, the problem of image correction was frequently presented in the remote sensing subject. Thanks to this, I was aware of the importance of correction in performing remote sensing. In fact, after joining the company, I felt that it was more important to obtain reliable data by correcting it later than collecting satellite data. With this week’s class, I once again thought about the importance of image correction. Before this week’s class, I knew about the basic principles, but I was able to learn exactly why each correction is done and how it is done."
   },
@@ -74,7 +74,7 @@
     "href": "week8.html#summary",
     "title": "8  Temperature and policy",
     "section": "8.1 Summary",
-    "text": "8.1 Summary\nThis week's lecture we will learn aboutUrban Heat Island (UHI) phenomenom through several policy case studies in different cities and countries.\n\n8.1.1 What is Urban Heat Island?\n\nUrban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas due to human activities \n\nSource:EARTH.ORG\nThere is two main factors\n\nMore dark surfaces that retain heat\nLess vegetation that cools the environment\n\n\nSource here:Cidco Smartcity\nBasic solution is making more green spaces in urban area\nIn Barcelona, they have implemented ’Superblocks’ startegy\n\nIncrease pedestrian traffic\nReduce nitrogen oxide\nReduce noise pollurion\nIncrease business\n\n\nSource:Beating the Heat: A Sustainable Cooling Handbook for Cities. Image: regenerativedesign.world\n\n\n\n8.1.2 What about the data?"
+    "text": "8.1 Summary\nThis week's lecture we will learn aboutUrban Heat Island (UHI) phenomenom through several policy case studies in different cities and countries.\n\n8.1.1 What is Urban Heat Island?\n\nUrban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas due to human activities \n\nSource:EARTH.ORG\nThere is two main factors\n\nMore dark surfaces that retain heat\nLess vegetation that cools the environment\n\n\nSource here:Cidco Smartcity\nBasic solution is making more green spaces in urban area\nIn Barcelona, they have implemented ’Superblocks’ startegy\n\nIncrease pedestrian traffic\nReduce nitrogen oxide\nReduce noise pollurion\nIncrease business\n\n\nSource:Beating the Heat: A Sustainable Cooling Handbook for Cities. Image: regenerativedesign.world\n\n\n\nIn western Sydney, they have implemented ’Cool Roads Trail’ startegy\n\nSurface coating did not systematically reduce air temperature during the day or night\nAmbient air temperatures were not lowered as a result of coating roads and carparks, which can potentially be a matter of scale\n\n\n\nSource:Pfautsch, S., & Wujeska-Klause, A. (2021). Cool Roads Trial 2021\n\n\n8.1.2 What data do we need?\n\nEO data(eg.Landsat 8 TIRS Collection 2)\nMeteorological data(Temperature/Wind/Precipitation)\nSpatial data from OpenStreetMap\nCensus data\n\n\n\n8.1.3 Making sense of this\nBefore implement the policy, we have to think about equal access/ distribution or equitable access / distribution or providing environmental justice.\n\nSource:Nikki Erdmann"
   },
   {
     "objectID": "week8.html#applications",
@@ -89,5 +89,103 @@
     "title": "8  Temperature and policy",
     "section": "8.3 Personal Reflection",
     "text": "8.3 Personal Reflection"
+  },
+  {
+    "objectID": "week7.html#summary",
+    "href": "week7.html#summary",
+    "title": "7  Classification2",
+    "section": "7.1 Summary",
+    "text": "7.1 Summary\nThis week covered more classification methods, how to assess accuracy of classifers and importance of accounting for spatial dependence in classifiers.\n\n7.1.1 Object-based image analysis(OBIA)\n\nSimple Linear Iterative Clustering (SLIC) Algorithm = the most common method for superpixel generation\nSupercells are consider shapes (rather than cells) based on the homogeneity or heterogeneity of cells\nConsists of two parts; Segmentation and classification\nSegmentation: OBIA segments an image grouping small pixels together into vector objects based on similarity \n\nSource:Nowosad 2021\n\n\n\n7.1.2 Sub pixel classification(Spectral Mixture Analysis (SMA)/ Linear spectral unmixing)\nWhat if we have a range of land cover types within one pixel? How can we classify it? Subpixel analysis overcome this limitation by estimating the proportion of different land cover types within each pixel.\n\nSource:MacLachlan et al. 2017\n\n\n7.1.3 Accuracy assessment\nAccuracy is important because it determines the quality of the information. So, after producing and output wee need to assign a accuracy value to it(common to machine learning).\nIn remote sensing we focus on:\n\nProducer accuracy: the fraction of correctly classified pixels (TP) compared to ground truth data(TP+FN)\nUser accuracy: the fraction of correctly classified pixels (TP) relative to all others classified as a particular land cover(TP+FP)\nOverall accuracy: epresents the combined fraction of correctly classified pixels (TP +TN) across all land cover types (TP+FP+FN+TN)\n\n\nSource:Barsi et al. 2018 Accuracy Dimensions in Remote Sensing\n\n\n7.1.4 Spatial cross validation\n\nSpatially partition the folded data\nDealing with spatial autocorrelation by using k-means clustering in each fold\nSupport Vector Machine\nNot available in GEE (but available in R)\n\n\nSpatial visualization of selected test and training observations for cross-validation of one repetition. Random (upper row) and spatial partitioning (lower row). Source:Lovelace et al. 2022"
+  },
+  {
+    "objectID": "week7.html#applications",
+    "href": "week7.html#applications",
+    "title": "7  Classification2",
+    "section": "7.2 Applications",
+    "text": "7.2 Applications"
+  },
+  {
+    "objectID": "week7.html#personal-reflection",
+    "href": "week7.html#personal-reflection",
+    "title": "7  Classification2",
+    "section": "7.3 Personal Reflection",
+    "text": "7.3 Personal Reflection\nThis week we learned advanced classifier methods and indicators for accuracy assessmennt. I really enjoyed to try out landcover classification on GEE in the practical. However, on the other hand, \bI thought that the technology to accurately detect and classify objects using these innovative methods could be abused and endanger human life or privacy. Of course, most of these technologies are used in good ways to improve the environment and the quality of life of citizens. However, after learning about ethics as a data scientist in the first semester and learning examples of side effects caused by data processing and misuse of technology, this week’s lecture gave me an opportunity to think about it once again."
+  },
+  {
+    "objectID": "week8.html#aplications",
+    "href": "week8.html#aplications",
+    "title": "8  Temperature and policy",
+    "section": "8.2 Aplications",
+    "text": "8.2 Aplications"
+  },
+  {
+    "objectID": "week1.html#summary",
+    "href": "week1.html#summary",
+    "title": "1  Introduction to Remote Sensing",
+    "section": "1.1 Summary",
+    "text": "1.1 Summary\nThis week is about basic of Reomote Sensing. It is about “What is reomote sensing?” and about “how it works”.\n\n1.1.1 What is remote sensing?\nNASA defines remote sensing as acquiring information from a distance\nRemote sensing is a technology that obtains information from a distance without contact with the observed object. It uses electromagnetic waves reflected or emitted from objects to investigate the components, types, and states of objects. In the case of ocean remote sensing, ocean currents can be estimated by measuring water temperature with an infrared sensor of an artificial satellite, the structure of upwelling or eddies can be identified, and the ocean circulation structure can also be understood. In the case of meteorological remote sensing, cloud temperature, classification, dust, ozone content, wind speed, etc. can be observed. Remote sensing is also used to monitor glacier and volcanic activity, and to study abnormal climate caused by El Niño.\n\n\n1.1.2 Type of sensors\nWhen we use Remote sensing we have to collet data by various of sensors. We can collect data by\n\nSatellites\nPhones(aerial imagery)\nDrones\nPhones\nFree standing on the ground or sea\n\n\nSource for this image https://www.industrytap.com/remote-sensing-sustainable-land-use/33218\n\n\n1.1.3 Two types of remote sensing sensors\nThere are two Type of sensors; Passive sensors and Active sensors. Let’s see more specifically.\n\n\n1.1.4 Passive sensors\nThis sensors don’t emit anytning and use energy that is available. And they detecting reflected energy(in electromagnetic waves) from the sun. For example, human eye, camera and satellite sonsor.\n\n\n1.1.5 Active sensors\nThis type of sensors have an energy source for illumination and actively emits electormagnetic waves and then waits to receive. Electromagnetic radiation propagates as waves. So we can see through clouds, volcanic ash, atmospheric conditions and also collect data at night. Such as Radar, X-ray and LiDAR.\n\n\nPassive and active sensors systems working principles. Source:Nadhir Al-Ansari\n\n\n1.1.6 Causes of bidirectional reflectance distribution functions\nSensors collect data from energy being reflected from the surface that is smooth or diffuse. When electromagnetic waves are reflected from the surface , the waves can be linked to surface properties - roughness, shape, orientation, moisture, salinity and density. Furthermore, SAR data less commonly documented surface interactions.\n\nSource: Professor Crystal Schaaf’s Lab\n\n\n1.1.7 Explore the 4 resolutions of remotely sensed data\nRemotely sensed data and applications will vary based on the four resolutions.\n\nSpatial\nIt is the size of the raster cells(grid per pixels). It’s range between 10cm and several kilometers.\n\nSource https://andrewmaclachlan.github.io/CASA0023-lecture-1/#54\nSpectral\nImages seen by the human eye are perceived as wavelengths of red, green, and blue, which are visible light rays. A color different from the wavelength reflected by the object is recognized as the color absorbed. However, we are subject to the constraints of the atmospheric window (water vapor, ozone, carbon dioxide and atmospheric molecules block part of the spectrum). Therefore, we can observe it only where it is not absorbed by the atmosphere.\nWe classify the type or spectral resolution according to the number of bands we observe. Each band is usually provided as a separate raster layer. This means that the spectral signature can be either discrete or continuous.\n\nSource: NASA Science\nTemporal\nThis means that the revisit time of the sensor needs to be considered. For example, return visit times are daily, every 7 days or upon request. Also, lower resolution means larger pixels.\nRadiometric\nThe ability of a sensor to identify and display small differences in energy. Higher means more sensitive.\n\n8 bits = 256 possible values\n4 bits = 16 possible values\n\n\nFurthermore, we have to consider type of orbit. There are two type of orbits. First, geosynchronous orbit (GSO) is that satellite matches the Earth’s rotation. Second, geostationary orbit, this orbit holds same position, usually only for communications but some sensors are geostationary.\n\nSource: American Scientist"
+  },
+  {
+    "objectID": "week2.html#portfolio-tools",
+    "href": "week2.html#portfolio-tools",
+    "title": "2  Portfolio tools",
+    "section": "2.1 Portfolio tools",
+    "text": "2.1 Portfolio tools\nThis week we will be learn about"
+  },
+  {
+    "objectID": "week3.html#summary",
+    "href": "week3.html#summary",
+    "title": "3  Remote sensing data",
+    "section": "3.1 Summary",
+    "text": "3.1 Summary\nThis week we will learn about ‘corrections’ and ‘data joining annd enhancement’.\n\n3.1.1 Corrections\nSometimes images obtained by remote sensing may contain defects due to sensor, atmosphere, terrain, so pre-processing is required.\nA typical example is when Landsat7’s scan line corrector fails. It moves in a zigzag motion and the corrector normalizes the image. However, it is difficult to use with a method developed for estimating gaps, called gap filling.\n\nSource:USGS\n\nGeometric correction\nCollecting remotely sensed data can cause distortion due to viewing angle, topography (slope rather than flat areas), wind, and Earth’s rotation.\nThus, using geographic maps, other images, and GPS data from handheld devices, ground control points are identified to match known points in the image to a reference data set.\nThe model with the lowest RMSE is the best fit. Jensen sets the RMSE value to 0.5. You can usually add more GCPs to reduce the RMSE.\nThis may shift the data slightly, so the final raster needs to be resampled. Resampling methods include nearest neighbor, linear, cubic, and cubic spline.\n\n\nSource:Richard Treves\n\nAtmospheric correction\nAtmospheric correction is a process used in remote sensing to correct for the effects of the Earth’s atmosphere on the remotely sensed data. The Earth’s atmosphere is composed of various gases, particles, and water vapor, which can absorb, scatter, and reflect the electromagnetic radiation from the sun or the Earth’s surface. These atmospheric effects can distort or obscure the signals received by remote sensors, leading to errors in the interpretation of the data.\nThere are various methods for atmospheric correction, including the use of empirical models, such as the Dark Target or Deep Blue algorithms, and physical models, such as the MODTRAN or 6S models. The choice of method depends on the specific application, the sensor characteristics, and the atmospheric conditions at the time of data acquisition.\n\nSource:USGS\nEmpirical line correction\nEmpirical correction in remote sensing refers to a type of atmospheric correction that is based on statistical relationships between the remotely sensed data and ground truth measurements.\nThis methods are particularly useful for sensors that lack the spectral resolution or radiometric accuracy to accurately model the atmospheric effects using physical models.\n\nSource:Source: David P. Groeneveld\nOrtho-rectification correction\nIn satellite images, distortion occurs due to the shading effect in images taken of mountain areas with severe topography. In consideration of this distortion, all points in the data are corrected so that they have the same shape as seen from a vertical position like a map. It is called -rectification correction.\nIn order to generate orthocorrection, the image to be orthocorrected, satellite image, aerial photograph, etc., digital elevation model (DEM) of the image area to be corrected, ground control point (GCP), and auxiliary data of the image are required.\nOrtho-rectification correction can be performed using various techniques, including photogrammetry, lidar, and radar.\n\nOrthorectification creates a final product whereby each pixel in the image is depicted as if it were collected from directly overhead or as close to this as possible. In the graphic above, you can see a path through the forest going from the northwest to the southeast. On the left is the original image, and on the right is the orthorectified image. In the orthorectified version, you can see that the path is now nearly straight after the influence of topography has been removed from the image. (Graphic Credit: David DiBiase, Penn State University). Source:Apollo Mapping, 2016\nRadiometric calibration\nThis content mainly applies to optical sensor images, and image data acquisition from satellites is when light incident from the sun is reflected by an object on the surface of the earth and then detected by the observation sensor of the satellite, and sunlight is scattered and absorbed in the process of passing through the atmosphere. , is reflected, which means preprocessing to correct it.\nThe influence of the atmosphere weakens the intensity of sunlight incident on the sensor, and consequently affects the brightness of image data. In order to correct this, correction is performed using an atmospheric model, which is performed by an atmospheric model created by actual observations or calculations.\nThe atmospheric model can estimate the amount of scattering, absorption, and reflection corresponding to each wavelength and the intensity of solar incident light by inserting factors such as the altitude angle of the sun and meteorological factors at the time of observation. According to this algorithm, the brightness of the original image data value can be corrected.\n\nSource:Newcastle Univesrity\n\n\n\n3.1.2 Data joining and enhancement\n\n3.1.2.1 Feathering\nFeathering helps to eliminate these visible seams or transitions by blending the overlapping areas of adjacent images or data sets together. The goal of feathering is to create a seamless composite image that appears as if it was collected as a single image or data set.\nAccording to Jensen\n\nWithin the overlap area an representative sample is taken\nA histogram is extracted from the base image\nIt is then applied to image to using a histogram matching algorithm\nThis gives similar brightness values of the two images\nNext feathering is conducted\n\n\nSource:Harris Geospatial\n\n\n3.1.2.2 Image enhancement\nThere are several methods to enhance the images. Representatively, we can enhance it through contrast enhancement. The goal of contrast enhancement is to increase the contrast between different features in the image, making it easier to distinguish between them and extract useful information. For example, we can use stretching. This technique involves expanding the range of pixel values in an image to increase the contrast between dark and light areas. This can help to enhance the visibility of subtle features in the image.\n\n\n\nSource:EarthLab"
+  },
+  {
+    "objectID": "week4.html#summary",
+    "href": "week4.html#summary",
+    "title": "4  Policy applications",
+    "section": "4.1 Summary",
+    "text": "4.1 Summary"
+  },
+  {
+    "objectID": "week5.html#summary",
+    "href": "week5.html#summary",
+    "title": "5  Introduction to Google Earth Engine",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary\nIn this week, we will figure out “What is Google Earth Engine(GEE)” and\nGEE is “Geospatial” processing service. It permits geospatial analysis at scale.\n\n5.1.1 The set up of GEE\nGEE has a image data as a raster(has bands) and Feature as a vector. Feature has geometry and attributes. Furthermore, Image stack called ImageCollection annd Feature stack called FeatureCollection.\nGEE uses javascript(one of website programming language)\n\n5.1.1.1 Client vs Server\nWithin GEE we have code that runs on the client side and server side. Client side is the browser. Server side is on the server where data is stored. Any thing that has ee in front of it is stored on the server.\n\nSource: pintrest/codeboxx\n\n\n5.1.1.2 Scale\nScale in GEE refers to pixel resolution. It is set by the output(not by input). GEE collects the image to fit a 256x256 grid and GEE select the pyramid with the closest scale to that of your analysis and re-samples as needed. When we do re-sample, it uses nearest neighbor by default.\n\nScale. Source: GEE\nLet’s see an example, first load an image\nvar image = ee.Image(‘LANDSAT/LC08/C01/T1/LC08_044034_20140318’); var rgbVis = { bands: [‘B4’, ‘B3’, ‘B2’], min: 5964.56, max: 11703.44 }; Map.addLayer(image, rgbVis, “Landsat 8”);\nScale. Source: GEE\nNext, select a band 4 and then change the scale\nvar band_4 = image.select(‘B4’); var printAtScale = function(scale) { print(‘Pixel value at’+scale+’ meters scale’, band_4.reduceRegion({ reducer: ee.Reducer.first(), geometry: band_4.geometry().centroid(), // The scale determines the pyramid level from which to pull the input scale: scale }).get(‘B4’)); }; printAtScale(10); // 8883 printAtScale(30); // 8883 printAtScale(50); // 8337 printAtScale(70); // 9215 printAtScale(200); // 8775 printAtScale(500); // 8300 Copy Code\nSource: Code example\n\n\n5.1.1.3 Projection\nGEE converts all data into the Mercator projection(EPSG:3867). As a result, the operations of the projection are decided by the output.\n\nSource: GEE\n\n\n\n5.1.2 GEE in action(how we use it)\n\n5.1.2.1 Building blocks of GEE\nObject can be vector, raster, feature, string and number. Each of objects belong to a class and each class have specific functions.\n\nSource: GEE\n\n\n5.1.2.2 What does GEE look like\n\nSource: Form of GEE\n\n\n5.1.2.3 Typical processes in GEE\nAfter we have lots of images(raster data) and these belong to an imagecollection. We can process geometry operations, methods and applications.\n\nGeometry operations\n\nJoins\nZonal statistics\nFiltering of images or specific values\n\nMethods\n\nMachine learning\nSupervised and unsupervised classification\nDeep learning with Tensor Flow\nExploring relationship between variables\nExploring relationship between variables\n\nApplications\n\nOnline charts\nScalable geopspatial applications with GEE data\nThese let us query the data with a user interface that then updates the results\n\n\n\n\n5.1.2.4 Reducing images by region\nWe load an image collection from a dates and place and want to reduce the collection to the extreme values for each pixel. In GEE this is termed reduceRegion(). If we want to use feature collection with many polygons we can do it by image.reduceRegions().\n\nSource: GEE\n\n\n5.1.2.5 Reducing images by neighbourhoods\nWe can use image neighbors instead of using polygons to reduce the collection.\n\nSource: GEE\n\n\n5.1.2.6 Joins and filtering\nWe can join image collections and feature collections. To use joins we have to put them within a filter.\n\nThe leftField is the index (or attribute) in the primary data\nThe rightField is the secondary data"
+  },
+  {
+    "objectID": "week5.html#applications",
+    "href": "week5.html#applications",
+    "title": "5  Introduction to Google Earth Engine",
+    "section": "5.2 Applications",
+    "text": "5.2 Applications"
+  },
+  {
+    "objectID": "week5.html#personal-reflection",
+    "href": "week5.html#personal-reflection",
+    "title": "5  Introduction to Google Earth Engine",
+    "section": "5.3 Personal Reflection",
+    "text": "5.3 Personal Reflection\nThis week we learned about Google Earth Engine (GEE). In fact, before I studied GEE, I had Google Earth installed on my personal computer. The reason is that I wanted to see landmarks around the world through 3D building information provided by Google. At this time, for the first time, I found out that Google Earth is basically using LandSAT8(What we learned in previous week) satellite images for the entire earth, although it varies depending on the region. In this lecture, I created GEE account and personally experienced its advantages. I was surprised by the fact that if you sign up for GEE, you can program yourself and that anyone can view satellite data from around the world free of charge. I was also surprised that there was an easy to follow instruction manual."
+  },
+  {
+    "objectID": "week6.html#summary",
+    "href": "week6.html#summary",
+    "title": "6  Classification1",
+    "section": "6.1 Summary",
+    "text": "6.1 Summary\n\n6.1.1 How to classify remotely sensed data\n\n6.1.1.1 Classification trees\n\nClassify data into two or more discrete categories\nOutput variable is categoriesed such as religion, sex, nationality\nTop-down approach\nThe final leaves can be a mixture of the categories(impure), so we quantify this with the Gini Impurity\n\n\nSource:An Introduction to Data Science, Dr Saed Sayad\n\n\n6.1.1.2 Regression trees\n\nRegression trees is decision tree model with regression\nOutput variable is continuous values such as height, weight or temperature\nBottom-up approach\nSubset the data into smaller chunks\n\nSource:Luka Beverin\n\n\n\n6.1.1.3 Overfitting\n\nWhat if we have a leaf with just one person or one pixel value? = overfitting\n\nBias means difference between predicted value and true value(oversimplifies model)\nVariance is variability of model for a given point\n\n\n\nSource:Seema Singh\n\n\n6.1.1.4 Prevent overfitting\n\nWe can fix it by limiting how trees grow, for example we can set a minimum number of pixels in a leaf(20 is often used)\nSource:ML Wiki\nAlso we can fix it by weakest link pruning (with tree score)\n\nuse one less leaf, remove a leaf = sub-tree, SSR will get larger = termed PRUNING or cost complexity pruning\nSum for the tree\nTree score = SSR + tree penalty (alpha) * T (number of leaves) Lower means better\n\n\n\n\nThere is another method… Random Forest\n\nEnsemble machine learning model\nAll decision trees are grown by randomly extracting sub-datasets\nA single data may be selected multiple times as it allows redundancy\nFind the overall value which got more values based on all the trees\n\n\n\nSource:Rosaria Silipo\n\n\n\n6.1.2 Image classification\nThere are three types of image classification.\n\n\n\n\n\n\n\nSupervised Classification\nUnsupervised Classification\n\n\n\n\nPattern recognition or machine learning\nclustering\n\n\nParametric (normal distribution) : Maximum likelihood\nk-means\n\n\nnon parametric (not normal) : Support Vector Machine, Neural Networks\nISODATA\n\n\n\n\nSource:GIS Geography"
+  },
+  {
+    "objectID": "week6.html#applications",
+    "href": "week6.html#applications",
+    "title": "6  Classification1",
+    "section": "6.2 Applications",
+    "text": "6.2 Applications"
+  },
+  {
+    "objectID": "week6.html#personal-reflection",
+    "href": "week6.html#personal-reflection",
+    "title": "6  Classification1",
+    "section": "6.3 Personal Reflection",
+    "text": "6.3 Personal Reflection\nAs a surveying engineer, I have always been obsessed with accurate figures. This background is why it is important to choose the model with the highest accuracy. And even in the real world, it’s common to prioritize accuracy because most of us aim for profit. In this week’s lesson, I learned that classification methods fundamentally analyze data differently, which affects the ability to build accurate models. Although I did not fully understand the mathematical principles of each classification method, my goal is to build a model that is close to perfection by understanding it more clearly. However, in the field of social science research, since there is a possibility of understanding a phenomenon and inducing certain results rather than simply accurately predicting a phenomenon, interpretability should also be considered."
   }
 ]

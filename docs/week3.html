@@ -8,7 +8,7 @@
 
 <meta name="author" content="Sohyun Park">
 
-<title>CASA0023 - 3 Remote sensing data</title>
+<title>RS notebook - 3&nbsp; Remote sensing data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,11 +25,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./week4.html" rel="next">
+<link href="./week2.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -40,11 +43,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -60,26 +63,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">CASA0023</span>
-    </a>
-  </div>
-          <div id="quarto-search" class="" title="Search"></div>
-      </div> <!-- /container-fluid -->
-    </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">3 Remote sensing data</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Remote sensing data</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -87,34 +79,69 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">RS notebook</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Learning Content</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Hello!</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week1.html" class="sidebar-item-text sidebar-link">Week 1</a>
+  <a href="./week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Remote Sensing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week2.html" class="sidebar-item-text sidebar-link">Week 2</a>
+  <a href="./week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Portfolio tools</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week3.html" class="sidebar-item-text sidebar-link active">Week 3</a>
+  <a href="./week3.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Remote sensing data</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week4.html" class="sidebar-item-text sidebar-link">Week 4</a>
+  <a href="./week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy applications</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Introduction to Google Earth Engine</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification1</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification2</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week8.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Temperature and policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
   </div>
 </li>
     </ul>
@@ -123,16 +150,16 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">3.1 Summary</a>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">3.1</span>  Summary</a>
   <ul class="collapse">
-  <li><a href="#corrections" id="toc-corrections" class="nav-link" data-scroll-target="#corrections">3.1.1 Corrections</a></li>
-  <li><a href="#data-joining-and-enhancement" id="toc-data-joining-and-enhancement" class="nav-link" data-scroll-target="#data-joining-and-enhancement">3.1.2 Data joining and enhancement</a></li>
+  <li><a href="#corrections" id="toc-corrections" class="nav-link" data-scroll-target="#corrections"><span class="toc-section-number">3.1.1</span>  Corrections</a></li>
+  <li><a href="#data-joining-and-enhancement" id="toc-data-joining-and-enhancement" class="nav-link" data-scroll-target="#data-joining-and-enhancement"><span class="toc-section-number">3.1.2</span>  Data joining and enhancement</a></li>
   </ul></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">3.2 Applications</a></li>
-  <li><a href="#personal-reflection" id="toc-personal-reflection" class="nav-link" data-scroll-target="#personal-reflection">3.3 Personal Reflection</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">3.2</span>  Applications</a></li>
+  <li><a href="#personal-reflection" id="toc-personal-reflection" class="nav-link" data-scroll-target="#personal-reflection"><span class="toc-section-number">3.3</span>  Personal Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -141,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">3 Remote sensing data</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Remote sensing data</span></h1>
 </div>
 
 
@@ -162,11 +189,11 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">3.1 Summary</h2>
+<section id="summary" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">3.1</span> Summary</h2>
 <p>This week we will learn about ‘corrections’ and ‘data joining annd enhancement’.</p>
-<section id="corrections" class="level3">
-<h3 class="anchored" data-anchor-id="corrections">3.1.1 Corrections</h3>
+<section id="corrections" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="corrections"><span class="header-section-number">3.1.1</span> Corrections</h3>
 <p>Sometimes images obtained by remote sensing may contain defects due to sensor, atmosphere, terrain, so pre-processing is required.</p>
 <p>A typical example is when Landsat7’s scan line corrector fails. It moves in a zigzag motion and the corrector normalizes the image. However, it is difficult to use with a method developed for estimating gaps, called gap filling.</p>
 <p><img src="images/paste-99A45A8B.png" class="img-fluid"></p>
@@ -205,10 +232,10 @@ ul.task-list li input[type="checkbox"] {
 <p>Source:<a href="https://www.ncl.ac.uk/tcmweb/bilko/module7/lesson3.pdf">Newcastle Univesrity</a></p></li>
 </ul>
 </section>
-<section id="data-joining-and-enhancement" class="level3">
-<h3 class="anchored" data-anchor-id="data-joining-and-enhancement">3.1.2 Data joining and enhancement</h3>
-<section id="feathering" class="level4">
-<h4 class="anchored" data-anchor-id="feathering">Feathering</h4>
+<section id="data-joining-and-enhancement" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="data-joining-and-enhancement"><span class="header-section-number">3.1.2</span> Data joining and enhancement</h3>
+<section id="feathering" class="level4" data-number="3.1.2.1">
+<h4 data-number="3.1.2.1" class="anchored" data-anchor-id="feathering"><span class="header-section-number">3.1.2.1</span> Feathering</h4>
 <p>Feathering helps to eliminate these visible seams or transitions by blending the overlapping areas of adjacent images or data sets together. The goal of feathering is to create a seamless composite image that appears as if it was collected as a single image or data set.</p>
 <p>According to Jensen</p>
 <ul>
@@ -221,8 +248,8 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/paste-F98F079E.png" class="img-fluid"></p>
 <p>Source:<a href="https://www.l3harrisgeospatial.com/docs/mosaicseamless.html">Harris Geospatial</a></p>
 </section>
-<section id="image-enhancement" class="level4">
-<h4 class="anchored" data-anchor-id="image-enhancement">Image enhancement</h4>
+<section id="image-enhancement" class="level4" data-number="3.1.2.2">
+<h4 data-number="3.1.2.2" class="anchored" data-anchor-id="image-enhancement"><span class="header-section-number">3.1.2.2</span> Image enhancement</h4>
 <p>There are several methods to enhance the images. Representatively, we can enhance it through contrast enhancement. The goal of contrast enhancement is to increase the contrast between different features in the image, making it easier to distinguish between them and extract useful information. For example, we can use stretching. This technique involves expanding the range of pixel values in an image to increase the contrast between dark and light areas. This can help to enhance the visibility of subtle features in the image.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -233,11 +260,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 </section>
-<section id="applications" class="level2">
-<h2 class="anchored" data-anchor-id="applications">3.2 Applications</h2>
+<section id="applications" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">3.2</span> Applications</h2>
 </section>
-<section id="personal-reflection" class="level2">
-<h2 class="anchored" data-anchor-id="personal-reflection">3.3 Personal Reflection</h2>
+<section id="personal-reflection" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="personal-reflection"><span class="header-section-number">3.3</span> Personal Reflection</h2>
 <p>In Korea, I took the exam when I obtained a license related to surveying and geospatial information. In this test, the problem of image correction was frequently presented in the remote sensing subject. Thanks to this, I was aware of the importance of correction in performing remote sensing. In fact, after joining the company, I felt that it was more important to obtain reliable data by correcting it later than collecting satellite data. With this week’s class, I once again thought about the importance of image correction. Before this week’s class, I knew about the basic principles, but I was able to learn exactly why each correction is done and how it is done.</p>
 
 
@@ -377,6 +404,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./week2.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Portfolio tools</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./week4.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy applications</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

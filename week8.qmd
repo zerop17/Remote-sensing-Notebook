@@ -42,18 +42,7 @@ This week\'s lecture we will learn aboutUrban Heat Island (UHI) phenomenom throu
 
     Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities. Image: regenerativedesign.world](https://regenerativedesign.world/superblocks/?utm_source=rss&utm_medium=rss&utm_campaign=superblocks)
 
-```{=html}
-<!-- -->
-```
--   In western Sydney, they have implemented '**Cool roads trail'** startegy
-
-    -   Reflective carparks to reduce surface temperatures
-
-    -   Reduce nitrogen oxide
-
-    -   Reduce noise pollurion
-
-    -   Increase business
+### What about the data?
 
 ## Applications
 

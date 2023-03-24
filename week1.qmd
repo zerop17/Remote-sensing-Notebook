@@ -100,4 +100,10 @@ Source: [American Scientist](https://www.americanscientist.org/article/fifty-yea
 
 ## Applications
 
+The article by Lopez Ornelas ([2016](https://www.researchgate.net/publication/339726853_The_Mexican_Water_Forest_benefits_of_using_remote_sensing_techniques_to_assess_changes_in_land_use_and_land_cover?channel=doi&linkId=5e616701a6fdccac3cee92d6&showFulltext=true)) research the benefits of using remote sensing techniques to assess changes in land use and land cover in the Mexican Water Forest. In this study, land-use changes between 1986 and 2001 in Mexico's aquatic forests are reviewed over time. It also uses remote sensing technology (satellite imagery and GIS) as a tool to monitor changes in aquatic forests. The authors emphasize the importance of continuously monitoring changes in Mexican aquatic forests using remote sensing technology. SAR data can identify sleep anomalies over a wide spatial range. In this study, the authors used the data to calculate the surface water area fraction (SWAF) of the Amazon River after a drought to identify areas of drought.
+
 ## Personal Reflection
+
+Before entering CASA, I majored in cadastral science in undergraduate and had 3 years of experience working for a company that did cadastral surveying and spatial information analysis. I learned about Remote Sensing Introduction 9 years ago when I was an undergraduate. Based on this, I received training on a project to create a flood trace map when I work as a junior engineer at company.
+
+However, this module is an updated version of the knowledge I have previously learned and acquired. I was amazed at how much the resolution has improved. The module also taught us that improvements in remote sensing satellites such as the higher resolution Sentinel and Google Earth Enngine (GEE) allow for a wide range of analyzes such as object-based image detection. In this week's module, I was able to review the basics and principles of remote sensing that I had learned in the past and learned about advanced technology.

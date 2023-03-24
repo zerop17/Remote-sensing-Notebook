@@ -1,4 +1,17 @@
 # References {.unnumbered}
 
-::: {#refs}
-:::
+Lopez Ornelas, Fernanda. 2016. "The Mexican Water Forest: Benefits of Using Remote Sensing Techniques to Assess Changes in Land Use and Land Cover." PhD thesis. <https://doi.org/10.13140/RG.2.2.11855.43685>.
+
+S. Campbell *et al*., "Sensor Technology in Autonomous Vehicles : A review," *2018 29th Irish Signals and Systems Conference (ISSC)*, Belfast, UK, 2018, pp. 1-4, <https://ieeexplore.ieee.org/document/8585340>.
+
+Aimin Li & Guangping Xia (2021) The influence of geometric correction on the accuracy of the extraction of the remote sensing reflectance of water, International Journal of Remote Sensing, 42:6, 2280-2291, DOI: [10.1080/2150704X.2020.1847350](https://doi.org/10.1080/2150704X.2020.1847350)
+
+Policy Planning Section, General Affairs Division,Bureau of Environment, Tokyo Metropolitan Government(2019) Zero Emission Tokyo Strategy <https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf>
+
+M. Amani *et al*., "Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review," in *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 13, pp. 5326-5350, 2020, doi: 10.1109/JSTARS.2020.3021052. <https://ieeexplore.ieee.org/document/9184118>.
+
+Mann, M.L.; Melaas, E.K.; Malik, A. Using VIIRS Day/Night Band to Measure Electricity Supply Reliability: Preliminary Results from Maharashtra, India. *Remote Sens.* 2016, *8*, 711. <https://doi.org/10.3390/rs8090711>
+
+Biswajeet Pradhan, Remote sensing and GIS-based landslide hazard analysis and cross-validation using multivariate logistic regression model on three test areas in Malaysia, Advances in Space Research, Volume 45, Issue 10, 2010, Pages 1244-1256, ISSN 0273-1177, <https://doi.org/10.1016/j.asr.2010.01.006>
+
+Lee, Kanghyun, and Robert D. Brown. 2022. "Effects of Urban Landscape and Sociodemographic Characteristics on Heat-Related Health Using Emergency Medical Service Incidents." *International Journal of Environmental Research and Public Health* 19 (3): 1287. <https://doi.org/10.3390/ijerph19031287>.

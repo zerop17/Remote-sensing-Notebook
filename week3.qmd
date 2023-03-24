@@ -106,6 +106,8 @@ There are several methods to enhance the images. Representatively, we can enhanc
 
 ## Applications
 
+Li and Xia([2021](https://www.tandfonline.com/doi/full/10.1080/2150704X.2020.1847350))investigated the effect of geometric correction on the accuracy of remote sensing reflectance extraction from water using Landsat 8 Operational Land Imager (OLI) images. As a result, it was found that the geometric correction has some effect on the reflectance value of the atmospheric correction image, but the overall effect is insignificant. As a result, the authors emphasize that accurate geometrical correction is critical to extracting remote-sensing reflectance from water using satellite imagery, especially in regions with complex topography. However, as the study design was small sample size, conclusions drawn from this study may require further validation.
+
 ## Personal Reflection
 
 In Korea, I took the exam when I obtained a license related to surveying and geospatial information. In this test, the problem of image correction was frequently presented in the remote sensing subject. Thanks to this, I was aware of the importance of correction in performing remote sensing. In fact, after joining the company, I felt that it was more important to obtain reliable data by correcting it later than collecting satellite data. With this week's class, I once again thought about the importance of image correction. Before this week's class, I knew about the basic principles, but I was able to learn exactly why each correction is done and how it is done.

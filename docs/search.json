@@ -4,14 +4,14 @@
     "href": "week4.html#applications",
     "title": "4  Policy applications",
     "section": "4.2 Applications",
-    "text": "4.2 Applications"
+    "text": "4.2 Applications\nIn this part, I’ll focus on policy 3 ; Expansion of Zero Emission Buildings and figure out what is suitable data & methods and recommended usages.\n\n4.2.1 Data and Methods\n\nLiDAR data: This data can be used to measure the height and area of buildings in an entire urban area. It also recognizes the roof structure and the presence or absence of solar panels. If these factors are visualized and analyzed as data, it will help decision-making on the degree of eco-friendliness of the building\nThermal imaging data: Data collected using sensors that detect the infrared radiation emitted by a building could indicate the presence of an inefficient heating and cooling system in the building. So this will be also help decision-making on the degree of eco-friendliness of the building\n\n\n\n4.2.2 Recommended usages\nThrough these data, policy makers will be able to score buildings with accurate values as data on the eco-friendliy buildings. Buildings are graded based on these scores, and buildings that are not eco-friendly to be remodeled can be improved first. In addition, even for a new building in the design stage, if we find a place to supplement in advance using the two data mentioned above before completing the outer wall, we will obtain benefits in terms of economy and environment."
   },
   {
     "objectID": "week4.html#personal-reflection",
     "href": "week4.html#personal-reflection",
     "title": "4  Policy applications",
     "section": "4.3 Personal Reflection",
-    "text": "4.3 Personal Reflection"
+    "text": "4.3 Personal Reflection\nI thought this week’s class would be easy because of my experience working with government. However, while doing this assignment, I realized that this is not the case. It is not difficult to hear from a third party about a policy that already exists during class or office hours and understand it. However, it was really difficult to select a specific policy and think about “what is an efficient data collection method” or “what data to collect”. This is also the reason why I wanted to study at CASA. This is because I wanted to support my opinion by collecting data close to accuracy when presenting an opinion on a policy. For the rest of the semester, I decided to learn more about the types of remote sensing data and how to analyze them to make them more specific."
   },
   {
     "objectID": "week1.html",
@@ -25,21 +25,21 @@
     "href": "week1.html#applications",
     "title": "1  Introduction to Remote Sensing",
     "section": "1.2 Applications",
-    "text": "1.2 Applications"
+    "text": "1.2 Applications\nThe article by Lopez Ornelas (2016) research the benefits of using remote sensing techniques to assess changes in land use and land cover in the Mexican Water Forest. In this study, land-use changes between 1986 and 2001 in Mexico’s aquatic forests are reviewed over time. It also uses remote sensing technology (satellite imagery and GIS) as a tool to monitor changes in aquatic forests. The authors emphasize the importance of continuously monitoring changes in Mexican aquatic forests using remote sensing technology. SAR data can identify sleep anomalies over a wide spatial range. In this study, the authors used the data to calculate the surface water area fraction (SWAF) of the Amazon River after a drought to identify areas of drought."
   },
   {
     "objectID": "week1.html#personal-reflection",
     "href": "week1.html#personal-reflection",
     "title": "1  Introduction to Remote Sensing",
     "section": "1.3 Personal Reflection",
-    "text": "1.3 Personal Reflection"
+    "text": "1.3 Personal Reflection\nBefore entering CASA, I majored in cadastral science in undergraduate and had 3 years of experience working for a company that did cadastral surveying and spatial information analysis. I learned about Remote Sensing Introduction 9 years ago when I was an undergraduate. Based on this, I received training on a project to create a flood trace map when I work as a junior engineer at company.\nHowever, this module is an updated version of the knowledge I have previously learned and acquired. I was amazed at how much the resolution has improved. The module also taught us that improvements in remote sensing satellites such as the higher resolution Sentinel and Google Earth Enngine (GEE) allow for a wide range of analyzes such as object-based image detection. In this week’s module, I was able to review the basics and principles of remote sensing that I had learned in the past and learned about advanced technology."
   },
   {
     "objectID": "week2.html",
     "href": "week2.html",
-    "title": "2 Portfolio tools",
+    "title": "2  Portfolio tools",
     "section": "",
-    "text": "2. Portfolio tools\nThis week we will be learn about"
+    "text": "This week we will be learn about Xaringan. It is effective in making digital communication neat and manageable by producing interactive and dynamic presentations.\nI made a presentation by using xaringan about the LiDAR & RADAR. Click here to check my presentation."
   },
   {
     "objectID": "week3.html",
@@ -53,7 +53,7 @@
     "href": "week3.html#applications",
     "title": "3  Remote sensing data",
     "section": "3.2 Applications",
-    "text": "3.2 Applications"
+    "text": "3.2 Applications\nLi and Xia(2021)investigated the effect of geometric correction on the accuracy of remote sensing reflectance extraction from water using Landsat 8 Operational Land Imager (OLI) images. As a result, it was found that the geometric correction has some effect on the reflectance value of the atmospheric correction image, but the overall effect is insignificant. As a result, the authors emphasize that accurate geometrical correction is critical to extracting remote-sensing reflectance from water using satellite imagery, especially in regions with complex topography. However, as the study design was small sample size, conclusions drawn from this study may require further validation."
   },
   {
     "objectID": "week3.html#personal-reflection",
@@ -74,7 +74,7 @@
     "href": "week8.html#summary",
     "title": "8  Temperature and policy",
     "section": "8.1 Summary",
-    "text": "8.1 Summary\nThis week's lecture we will learn aboutUrban Heat Island (UHI) phenomenom through several policy case studies in different cities and countries.\n\n8.1.1 What is Urban Heat Island?\n\nUrban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas due to human activities \n\nSource:EARTH.ORG\nThere is two main factors\n\nMore dark surfaces that retain heat\nLess vegetation that cools the environment\n\n\nSource here:Cidco Smartcity\nBasic solution is making more green spaces in urban area\nIn Barcelona, they have implemented ’Superblocks’ startegy\n\nIncrease pedestrian traffic\nReduce nitrogen oxide\nReduce noise pollurion\nIncrease business\n\n\nSource:Beating the Heat: A Sustainable Cooling Handbook for Cities. Image: regenerativedesign.world\n\n\n\nIn western Sydney, they have implemented ’Cool Roads Trail’ startegy\n\nSurface coating did not systematically reduce air temperature during the day or night\nAmbient air temperatures were not lowered as a result of coating roads and carparks, which can potentially be a matter of scale\n\n\n\nSource:Pfautsch, S., & Wujeska-Klause, A. (2021). Cool Roads Trial 2021\n\n\n8.1.2 What data do we need?\n\nEO data(eg.Landsat 8 TIRS Collection 2)\nMeteorological data(Temperature/Wind/Precipitation)\nSpatial data from OpenStreetMap\nCensus data\n\n\n\n8.1.3 Making sense of this\nBefore implement the policy, we have to think about equal access/ distribution or equitable access / distribution or providing environmental justice.\n\nSource:Nikki Erdmann"
+    "text": "8.1 Summary\nThis week’s lecture we will learn aboutUrban Heat Island (UHI) phenomenon through several policy case studies in different cities and countries.\n\n8.1.1 What is Urban Heat Island?\n\nUrban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas due to human activities \n\nSource:EARTH.ORG\nThere is two main factors\n\nMore dark surfaces that retain heat\nLess vegetation that cools the environment\n\n\nSource here:Cidco Smartcity\nBasic solution is making more green spaces in urban area\nIn Barcelona, they have implemented ’Superblocks’ startegy\n\nIncrease pedestrian traffic\nReduce nitrogen oxide\nReduce noise pollution\nIncrease business\n\n\nSource:Beating the Heat: A Sustainable Cooling Handbook for Cities. Image: regenerativedesign.world\n\n\n\nIn western Sydney, they have implemented ’Cool Roads Trail’ startegy\n\nSurface coating did not systematically reduce air temperature during the day or night\nAmbient air temperatures were not lowered as a result of coating roads and carparks, which can potentially be a matter of scale\n\n\n\nSource:Pfautsch, S., & Wujeska-Klause, A. (2021). Cool Roads Trial 2021\n\n\n8.1.2 What data do we need?\n\nEO data(eg.Landsat 8 TIRS Collection 2)\nMeteorological data(Temperature/Wind/Precipitation)\nSpatial data from OpenStreetMap\nCensus data\n\n\n\n8.1.3 Making sense of this\nBefore implement the policy, we have to think about equal access/ distribution or equitable access / distribution or providing environmental justice.\n\nSource:Nikki Erdmann"
   },
   {
     "objectID": "week8.html#applications",
@@ -88,7 +88,7 @@
     "href": "week8.html#personal-reflection",
     "title": "8  Temperature and policy",
     "section": "8.3 Personal Reflection",
-    "text": "8.3 Personal Reflection"
+    "text": "8.3 Personal Reflection\nI’ve heard about Urbann Heat Island in the news. In Seoul in the past, this phenomenon was extreme due to many concrete roads and insufficient green areas. In order to solve this problem, the city of Seoul is solving this problem by creating artificial rivers, rooftop green areas and planting trees. Particularly impressive this week is the Barcelona example. I visited Barcelona for the first time 8 years ago while backpacking. At that time, I remember wandering down the street because it felt like all the same roads because of the blocks and similar buildings in the square shape of Barcelona. At the time, I thought it was nice and uncomfortable to look at, but after learning ‘Superblocks’ startegy from this lecture, I was surprised that square blocks are useful for policy and can further improve the quality of life of citizens."
   },
   {
     "objectID": "week7.html#summary",
@@ -102,7 +102,7 @@
     "href": "week7.html#applications",
     "title": "7  Classification2",
     "section": "7.2 Applications",
-    "text": "7.2 Applications"
+    "text": "7.2 Applications\nPradhan (2016) conducted this study to develop a landslide risk analysis model using remote sensing and GIS technology in Malaysia. This study focuses on three test areas and uses various remote sensing data such as satellite imagery and land use/land cover maps to extract information related to landslide occurrence. After calculating 10 factors such as soil type and land cover, this study applies a multivariate logistic regression model to model the relationship between landslide occurrence and environmental variables by cross-validating the three research areas. The authors emphasized that this model developed using remote sensing and GIS is effective in identifying and mapping landslide risk areas, and the importance of cross-validation as a means of testing the accuracy of the model."
   },
   {
     "objectID": "week7.html#personal-reflection",
@@ -116,7 +116,7 @@
     "href": "week8.html#aplications",
     "title": "8  Temperature and policy",
     "section": "8.2 Aplications",
-    "text": "8.2 Aplications"
+    "text": "8.2 Aplications\nAs global warming becomes more severe in modern society, many citizens suffer from heat waves in summer. Lee and Brown(2022) were interesting in that they investigated the relationship between sociodemographic characteristics and heat-related health outcomes using emergency medical service (EMS) incident data (vector data). The study found that areas with a high percentage of impervious surfaces, low percentages of green spaces, non-whites, and people over the age of 65 were more likely to be exposed to heat-related EMS incidents. These results will be able to prioritize accident-prone areas when applying policies to mitigate the urban heat island, thereby mitigating adverse effects on the health of urban residents. This means that policies and resources can be delivered efficiently and first to those who need them most."
   },
   {
     "objectID": "week1.html#summary",
@@ -144,7 +144,7 @@
     "href": "week4.html#summary",
     "title": "4  Policy applications",
     "section": "4.1 Summary",
-    "text": "4.1 Summary"
+    "text": "4.1 Summary\nThis week is about policy applications, and this diary focused on Zero Emission Tokyo Strategy\n\n4.1.1 Introduction\nIn 2018, the city of Tokyo announced “The Zero Emission Tokyo Strategy”. This strategy is a plan to achieve zero greenhouse gas emissions in the city of Tokyo by 2050. Tokyo is the most populous city in Japan. As the population increases, urban expansion is accelerating, and as a result, the green area ratio is relatively reduced by constructing urban structures such as paved roads and buildings, and the city is getting hotter and hotter. We can see the improvement direction for this through this policy report.\n\nSource: Zero Emission Tokyo Strategy\n\n\n4.1.2 Aim\n\nEnergy Savings and Efficiency(policy2): Increase use of renewable energy sources such as solar and wind power by 30% and reduce energy consumption by 38% by 2030\n\n\nSource: Zero Emission Tokyo Strategy\n\nZero emission Transport(policy 4): Transition to low-emission transport(electric and fuel cell vehicles) and promote public transport \nSource: Zero Emission Tokyo Strategy\n\nEmissions-Free Buildings(policy 3): Promote the use of energy-efficient and emission-free buildings\n\nSource: Zero Emission Tokyo Strategy"
   },
   {
     "objectID": "week5.html#summary",
@@ -158,7 +158,7 @@
     "href": "week5.html#applications",
     "title": "5  Introduction to Google Earth Engine",
     "section": "5.2 Applications",
-    "text": "5.2 Applications"
+    "text": "5.2 Applications\nGoogle Earth Engine is used in so many different fields and is very useful. This has made remote sensing analysis faster and more accessible.(M. Amani et al. ,2020). However, I consider environmental monitoring to be the most powerful application of them all. Environmental monitoring allows us to track land use change, monitor deforestation, detect floods, and detect damage. It can also monitor air quality, surface temperature, water quality, crop patterns and soil health."
   },
   {
     "objectID": "week5.html#personal-reflection",
@@ -172,14 +172,14 @@
     "href": "week6.html#summary",
     "title": "6  Classification1",
     "section": "6.1 Summary",
-    "text": "6.1 Summary\n\n6.1.1 How to classify remotely sensed data\n\n6.1.1.1 Classification trees\n\nClassify data into two or more discrete categories\nOutput variable is categoriesed such as religion, sex, nationality\nTop-down approach\nThe final leaves can be a mixture of the categories(impure), so we quantify this with the Gini Impurity\n\n\nSource:An Introduction to Data Science, Dr Saed Sayad\n\n\n6.1.1.2 Regression trees\n\nRegression trees is decision tree model with regression\nOutput variable is continuous values such as height, weight or temperature\nBottom-up approach\nSubset the data into smaller chunks\n\nSource:Luka Beverin\n\n\n\n6.1.1.3 Overfitting\n\nWhat if we have a leaf with just one person or one pixel value? = overfitting\n\nBias means difference between predicted value and true value(oversimplifies model)\nVariance is variability of model for a given point\n\n\n\nSource:Seema Singh\n\n\n6.1.1.4 Prevent overfitting\n\nWe can fix it by limiting how trees grow, for example we can set a minimum number of pixels in a leaf(20 is often used)\nSource:ML Wiki\nAlso we can fix it by weakest link pruning (with tree score)\n\nuse one less leaf, remove a leaf = sub-tree, SSR will get larger = termed PRUNING or cost complexity pruning\nSum for the tree\nTree score = SSR + tree penalty (alpha) * T (number of leaves) Lower means better\n\n\n\n\nThere is another method… Random Forest\n\nEnsemble machine learning model\nAll decision trees are grown by randomly extracting sub-datasets\nA single data may be selected multiple times as it allows redundancy\nFind the overall value which got more values based on all the trees\n\n\n\nSource:Rosaria Silipo\n\n\n\n6.1.2 Image classification\nThere are three types of image classification.\n\n\n\n\n\n\n\nSupervised Classification\nUnsupervised Classification\n\n\n\n\nPattern recognition or machine learning\nclustering\n\n\nParametric (normal distribution) : Maximum likelihood\nk-means\n\n\nnon parametric (not normal) : Support Vector Machine, Neural Networks\nISODATA\n\n\n\n\nSource:GIS Geography"
+    "text": "6.1 Summary\nIn this week, we will focused on the use of classification techniques within remotely sensed data.\n\n6.1.1 How to classify remotely sensed data\n\n6.1.1.1 Classification trees\n\nClassify data into two or more discrete categories\nOutput variable is categoriesed such as religion, sex, nationality\nTop-down approach\nThe final leaves can be a mixture of the categories(impure), so we quantify this with the Gini Impurity\n\n\nSource:An Introduction to Data Science, Dr Saed Sayad\n\n\n6.1.1.2 Regression trees\n\nRegression trees is decision tree model with regression\nOutput variable is continuous values such as height, weight or temperature\nBottom-up approach\nSubset the data into smaller chunks\n\nSource:Luka Beverin\n\n\n\n6.1.1.3 Overfitting\n\nWhat if we have a leaf with just one person or one pixel value? = overfitting\n\nBias means difference between predicted value and true value(oversimplifies model)\nVariance is variability of model for a given point\n\n\n\nSource:Seema Singh\n\n\n6.1.1.4 Prevent overfitting\n\nWe can fix it by limiting how trees grow, for example we can set a minimum number of pixels in a leaf(20 is often used)\nSource:ML Wiki\nAlso we can fix it by weakest link pruning (with tree score)\n\nuse one less leaf, remove a leaf = sub-tree, SSR will get larger = termed PRUNING or cost complexity pruning\nSum for the tree\nTree score = SSR + tree penalty (alpha) * T (number of leaves) Lower means better\n\n\n\n\nThere is another method… Random Forest\n\nEnsemble machine learning model\nAll decision trees are grown by randomly extracting sub-datasets\nA single data may be selected multiple times as it allows redundancy\nFind the overall value which got more values based on all the trees\n\n\n\nSource:Rosaria Silipo\n\n\n\n6.1.2 Image classification\nThere are three types of image classification.\n\n\n\n\n\n\n\nSupervised Classification\nUnsupervised Classification\n\n\n\n\nPattern recognition or machine learning\nclustering\n\n\nParametric (normal distribution) : Maximum likelihood\nk-means\n\n\nnon parametric (not normal) : Support Vector Machine, Neural Networks\nISODATA\n\n\n\n\nSource:GIS Geography"
   },
   {
     "objectID": "week6.html#applications",
     "href": "week6.html#applications",
     "title": "6  Classification1",
     "section": "6.2 Applications",
-    "text": "6.2 Applications"
+    "text": "6.2 Applications\nThis week I read about “VIIRS Day/Night Band to Measure Electricity Supply Reliability: Preliminary Results from Maharashtra, India”. In this study, M. Amani et al (2016). used VIIRS (Visible Infrared Imaging Radiometer Suite) images to measure the reliability of electricity supply in Maharashtra, India. In this study, they used the Random Forest model we learned about this week. This study provides a reliable and accurate method for measuring electricity supply reliability, as the VIIRS Day/Night Band data (providing high spatial and temporal resolution images of nighttime illumination) was able to capture both planned and unplanned outages. Therefore, this study will be a useful tool for measuring electricity supply reliability in developing countries where settlements occur continuously and frequently."
   },
   {
     "objectID": "week6.html#personal-reflection",
@@ -201,5 +201,12 @@
     "title": "RS notebook",
     "section": "Brief introduce about this learning Diary",
     "text": "Brief introduce about this learning Diary\nIn this term, I’m taking a module CASA0023: Remotely Sensing Cities and Environment. This website contains weekly learning material with Summary, Applications and Personal Reflection."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Lopez Ornelas, Fernanda. 2016. “The Mexican Water Forest: Benefits of Using Remote Sensing Techniques to Assess Changes in Land Use and Land Cover.” PhD thesis. https://doi.org/10.13140/RG.2.2.11855.43685.\nS. Campbell et al., “Sensor Technology in Autonomous Vehicles : A review,” 2018 29th Irish Signals and Systems Conference (ISSC), Belfast, UK, 2018, pp. 1-4, https://ieeexplore.ieee.org/document/8585340.\nAimin Li & Guangping Xia (2021) The influence of geometric correction on the accuracy of the extraction of the remote sensing reflectance of water, International Journal of Remote Sensing, 42:6, 2280-2291, DOI: 10.1080/2150704X.2020.1847350\nPolicy Planning Section, General Affairs Division,Bureau of Environment, Tokyo Metropolitan Government(2019) Zero Emission Tokyo Strategy https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf\nM. Amani et al., “Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 5326-5350, 2020, doi: 10.1109/JSTARS.2020.3021052. https://ieeexplore.ieee.org/document/9184118.\nMann, M.L.; Melaas, E.K.; Malik, A. Using VIIRS Day/Night Band to Measure Electricity Supply Reliability: Preliminary Results from Maharashtra, India. Remote Sens. 2016, 8, 711. https://doi.org/10.3390/rs8090711\nBiswajeet Pradhan, Remote sensing and GIS-based landslide hazard analysis and cross-validation using multivariate logistic regression model on three test areas in Malaysia, Advances in Space Research, Volume 45, Issue 10, 2010, Pages 1244-1256, ISSN 0273-1177, https://doi.org/10.1016/j.asr.2010.01.006\nLee, Kanghyun, and Robert D. Brown. 2022. “Effects of Urban Landscape and Sociodemographic Characteristics on Heat-Related Health Using Emergency Medical Service Incidents.” International Journal of Environmental Research and Public Health 19 (3): 1287. https://doi.org/10.3390/ijerph19031287."
   }
 ]

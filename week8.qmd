@@ -6,7 +6,7 @@ editor: visual
 
 ## Summary
 
-This week\'s lecture we will learn aboutUrban Heat Island (UHI) phenomenom through several policy case studies in different cities and countries.
+This week's lecture we will learn aboutUrban Heat Island (UHI) phenomenon through several policy case studies in different cities and countries.
 
 ### What is Urban Heat Island?
 
@@ -34,7 +34,7 @@ This week\'s lecture we will learn aboutUrban Heat Island (UHI) phenomenom throu
 
     -   Reduce nitrogen oxide
 
-    -   Reduce noise pollurion
+    -   Reduce noise pollution
 
     -   Increase business
 
@@ -42,9 +42,8 @@ This week\'s lecture we will learn aboutUrban Heat Island (UHI) phenomenom throu
 
     Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities. Image: regenerativedesign.world](https://regenerativedesign.world/superblocks/?utm_source=rss&utm_medium=rss&utm_campaign=superblocks)
 
-```{=html}
 <!-- -->
-```
+
 -   In western Sydney, they have implemented '**Cool Roads Trail'** startegy
 
     -   Surface coating did not systematically reduce air temperature during the day or night
@@ -74,5 +73,8 @@ Before implement the policy, we have to think about equal access/ distribution o
 Source:[Nikki Erdmann](https://achievebrowncounty.org/2021/05/defining-equity-equality-and-justice/)
 
 ## Aplications
+As global warming becomes more severe in modern society, many citizens suffer from heat waves in summer. Lee and Brown([2022](https://doi.org/10.3390/ijerph19031287)) were interesting in that they investigated the relationship between sociodemographic characteristics and heat-related health outcomes using emergency medical service (EMS) incident data (vector data). The study found that areas with a high percentage of impervious surfaces, low percentages of green spaces, non-whites, and people over the age of 65 were more likely to be exposed to heat-related EMS incidents. These results will be able to prioritize accident-prone areas when applying policies to mitigate the urban heat island, thereby mitigating adverse effects on the health of urban residents. This means that policies and resources can be delivered efficiently and first to those who need them most.
 
 ## Personal Reflection
+
+I've heard about Urbann Heat Island in the news. In Seoul in the past, this phenomenon was extreme due to many concrete roads and insufficient green areas. In order to solve this problem, the city of Seoul is solving this problem by creating artificial rivers, rooftop green areas and planting trees. Particularly impressive this week is the Barcelona example. I visited Barcelona for the first time 8 years ago while backpacking. At that time, I remember wandering down the street because it felt like all the same roads because of the blocks and similar buildings in the square shape of Barcelona. At the time, I thought it was nice and uncomfortable to look at, but after learning 'Superblocks' startegy from this lecture, I was surprised that square blocks are useful for policy and can further improve the quality of life of citizens.

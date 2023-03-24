@@ -5,6 +5,7 @@ editor: visual
 ---
 
 ## Summary
+In this week, we will focused on the use of classification techniques within remotely sensed data.
 
 ### How to classify remotely sensed data
 
@@ -83,7 +84,7 @@ Source:[Rosaria Silipo](https://towardsdatascience.com/from-a-single-decision-tr
 There are three types of image classification.
 
 | Supervised Classification                                             | Unsupervised Classification |
-|--------------------------------------------------|---------------------|
+|-------------------------------------------------|----------------------|
 | Pattern recognition or machine learning                               | clustering                  |
 | Parametric (normal distribution) : Maximum likelihood                 | k-means                     |
 | non parametric (not normal) : Support Vector Machine, Neural Networks | ISODATA                     |
@@ -93,6 +94,8 @@ There are three types of image classification.
 Source:[GIS Geography](https://gisgeography.com/supervised-unsupervised-classification-arcgis/)
 
 ## Applications
+
+This week I read about "VIIRS Day/Night Band to Measure Electricity Supply Reliability: Preliminary Results from Maharashtra, India". In this study, M. Amani *et al* ([2016](https://doi.org/10.3390/rs8090711)). used VIIRS (Visible Infrared Imaging Radiometer Suite) images to measure the reliability of electricity supply in Maharashtra, India. In this study, they used the Random Forest model we learned about this week. This study provides a reliable and accurate method for measuring electricity supply reliability, as the VIIRS Day/Night Band data (providing high spatial and temporal resolution images of nighttime illumination) was able to capture both planned and unplanned outages. Therefore, this study will be a useful tool for measuring electricity supply reliability in developing countries where settlements occur continuously and frequently.
 
 ## Personal Reflection
 

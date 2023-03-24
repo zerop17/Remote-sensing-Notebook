@@ -6,6 +6,46 @@ editor: visual
 
 ## Summary
 
+This week is about policy applications, and this diary focused on [Zero Emission Tokyo Strategy](https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf)
+
+### Introduction
+
+In 2018, the city of Tokyo announced "The Zero Emission Tokyo Strategy". This strategy is a plan to achieve zero greenhouse gas emissions in the city of Tokyo by 2050. Tokyo is the most populous city in Japan. As the population increases, urban expansion is accelerating, and as a result, the green area ratio is relatively reduced by constructing urban structures such as paved roads and buildings, and the city is getting hotter and hotter. We can see the improvement direction for this through [this policy report](https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf).
+
+![](images/tointro.png)\
+Source: [Zero Emission Tokyo Strategy](https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf)
+
+### Aim
+
+-   Energy Savings and Efficiency(policy2): Increase use of renewable energy sources such as solar and wind power by 30% and reduce energy consumption by 38% by 2030
+
+![](images/energy.png)\
+Source: [Zero Emission Tokyo Strategy](https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf)
+
+-   Zero emission Transport(policy 4): Transition to low-emission transport(electric and fuel cell vehicles) and promote public transport ![](images/greencar.png)\
+    Source: [Zero Emission Tokyo Strategy](https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf)
+
+-   
+
+-   Emissions-Free Buildings(policy 3): Promote the use of energy-efficient and emission-free buildings
+
+-   ![](images/building.png)\
+    Source: [Zero Emission Tokyo Strategy](https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf)
+
 ## Applications
 
+In this part, I'll focus on **policy 3 ; Expansion of Zero Emission Buildings** and figure out what is suitable data & methods and recommended usages.
+
+### Data and Methods
+
+-   LiDAR data: This data can be used to measure the height and area of buildings in an entire urban area. It also recognizes the roof structure and the presence or absence of solar panels. If these factors are visualized and analyzed as data, it will help decision-making on the degree of eco-friendliness of the building
+
+-   Thermal imaging data: Data collected using sensors that detect the infrared radiation emitted by a building could indicate the presence of an inefficient heating and cooling system in the building. So this will be also help decision-making on the degree of eco-friendliness of the building
+
+### Recommended usages
+
+Through these data, policy makers will be able to score buildings with accurate values as data on the eco-friendliy buildings. Buildings are graded based on these scores, and buildings that are not eco-friendly to be remodeled can be improved first. In addition, even for a new building in the design stage, if we find a place to supplement in advance using the two data mentioned above before completing the outer wall, we will obtain benefits in terms of economy and environment.
+
 ## Personal Reflection
+
+I thought this week's class would be easy because of my experience working with government. However, while doing this assignment, I realized that this is not the case. It is not difficult to hear from a third party about a policy that already exists during class or office hours and understand it. However, it was really difficult to select a specific policy and think about "what is an efficient data collection method" or "what data to collect". This is also the reason why I wanted to study at CASA. This is because I wanted to support my opinion by collecting data close to accuracy when presenting an opinion on a policy. For the rest of the semester, I decided to learn more about the types of remote sensing data and how to analyze them to make them more specific.

@@ -126,6 +126,8 @@ We can **join** image collections and feature collections. To use joins we have 
 
 ## Applications
 
+Google Earth Engine is used in so many different fields and is very useful. This has made remote sensing analysis faster and more accessible.(M. Amani *et al*. ,[2020](https://ieeexplore.ieee.org/document/9184118)). However, I consider environmental monitoring to be the most powerful application of them all. Environmental monitoring allows us to track land use change, monitor deforestation, detect floods, and detect damage. It can also monitor air quality, surface temperature, water quality, crop patterns and soil health.
+
 ## Personal Reflection
 
 This week we learned about Google Earth Engine (GEE). In fact, before I studied GEE, I had Google Earth installed on my personal computer. The reason is that I wanted to see landmarks around the world through 3D building information provided by Google. At this time, for the first time, I found out that Google Earth is basically using LandSAT8(What we learned in previous week) satellite images for the entire earth, although it varies depending on the region. In this lecture, I created GEE account and personally experienced its advantages. I was surprised by the fact that if you sign up for GEE, you can program yourself and that anyone can view satellite data from around the world free of charge. I was also surprised that there was an easy to follow instruction manual.

@@ -153,8 +153,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">4.1</span>  Summary</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">4.2</span>  Applications</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">4.1</span>  Summary</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="toc-section-number">4.1.1</span>  Introduction</a></li>
+  <li><a href="#aim" id="toc-aim" class="nav-link" data-scroll-target="#aim"><span class="toc-section-number">4.1.2</span>  Aim</a></li>
+  </ul></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">4.2</span>  Applications</a>
+  <ul class="collapse">
+  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods"><span class="toc-section-number">4.2.1</span>  Data and Methods</a></li>
+  <li><a href="#recommended-usages" id="toc-recommended-usages" class="nav-link" data-scroll-target="#recommended-usages"><span class="toc-section-number">4.2.2</span>  Recommended usages</a></li>
+  </ul></li>
   <li><a href="#personal-reflection" id="toc-personal-reflection" class="nav-link" data-scroll-target="#personal-reflection"><span class="toc-section-number">4.3</span>  Personal Reflection</a></li>
   </ul>
 </nav>
@@ -187,12 +195,48 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">4.1</span> Summary</h2>
+<p>This week is about policy applications, and this diary focused on <a href="https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf">Zero Emission Tokyo Strategy</a></p>
+<section id="introduction" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">4.1.1</span> Introduction</h3>
+<p>In 2018, the city of Tokyo announced “The Zero Emission Tokyo Strategy”. This strategy is a plan to achieve zero greenhouse gas emissions in the city of Tokyo by 2050. Tokyo is the most populous city in Japan. As the population increases, urban expansion is accelerating, and as a result, the green area ratio is relatively reduced by constructing urban structures such as paved roads and buildings, and the city is getting hotter and hotter. We can see the improvement direction for this through <a href="https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf">this policy report</a>.</p>
+<p><img src="images/tointro.png" class="img-fluid"><br>
+Source: <a href="https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf">Zero Emission Tokyo Strategy</a></p>
+</section>
+<section id="aim" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="aim"><span class="header-section-number">4.1.2</span> Aim</h3>
+<ul>
+<li>Energy Savings and Efficiency(policy2): Increase use of renewable energy sources such as solar and wind power by 30% and reduce energy consumption by 38% by 2030</li>
+</ul>
+<p><img src="images/energy.png" class="img-fluid"><br>
+Source: <a href="https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf">Zero Emission Tokyo Strategy</a></p>
+<ul>
+<li><p>Zero emission Transport(policy 4): Transition to low-emission transport(electric and fuel cell vehicles) and promote public transport <img src="images/greencar.png" class="img-fluid"><br>
+Source: <a href="https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf">Zero Emission Tokyo Strategy</a></p></li>
+<li></li>
+<li><p>Emissions-Free Buildings(policy 3): Promote the use of energy-efficient and emission-free buildings</p></li>
+<li><p><img src="images/building.png" class="img-fluid"><br>
+Source: <a href="https://www.kankyo.metro.tokyo.lg.jp/en/about_us/zero_emission_tokyo/strategy.files/Full-ver.ZE-strategy0311.pdf">Zero Emission Tokyo Strategy</a></p></li>
+</ul>
+</section>
 </section>
 <section id="applications" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">4.2</span> Applications</h2>
+<p>In this part, I’ll focus on <strong>policy 3 ; Expansion of Zero Emission Buildings</strong> and figure out what is suitable data &amp; methods and recommended usages.</p>
+<section id="data-and-methods" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="data-and-methods"><span class="header-section-number">4.2.1</span> Data and Methods</h3>
+<ul>
+<li><p>LiDAR data: This data can be used to measure the height and area of buildings in an entire urban area. It also recognizes the roof structure and the presence or absence of solar panels. If these factors are visualized and analyzed as data, it will help decision-making on the degree of eco-friendliness of the building</p></li>
+<li><p>Thermal imaging data: Data collected using sensors that detect the infrared radiation emitted by a building could indicate the presence of an inefficient heating and cooling system in the building. So this will be also help decision-making on the degree of eco-friendliness of the building</p></li>
+</ul>
+</section>
+<section id="recommended-usages" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="recommended-usages"><span class="header-section-number">4.2.2</span> Recommended usages</h3>
+<p>Through these data, policy makers will be able to score buildings with accurate values as data on the eco-friendliy buildings. Buildings are graded based on these scores, and buildings that are not eco-friendly to be remodeled can be improved first. In addition, even for a new building in the design stage, if we find a place to supplement in advance using the two data mentioned above before completing the outer wall, we will obtain benefits in terms of economy and environment.</p>
+</section>
 </section>
 <section id="personal-reflection" class="level2" data-number="4.3">
 <h2 data-number="4.3" class="anchored" data-anchor-id="personal-reflection"><span class="header-section-number">4.3</span> Personal Reflection</h2>
+<p>I thought this week’s class would be easy because of my experience working with government. However, while doing this assignment, I realized that this is not the case. It is not difficult to hear from a third party about a policy that already exists during class or office hours and understand it. However, it was really difficult to select a specific policy and think about “what is an efficient data collection method” or “what data to collect”. This is also the reason why I wanted to study at CASA. This is because I wanted to support my opinion by collecting data close to accuracy when presenting an opinion on a policy. For the rest of the semester, I decided to learn more about the types of remote sensing data and how to analyze them to make them more specific.</p>
 
 
 </section>

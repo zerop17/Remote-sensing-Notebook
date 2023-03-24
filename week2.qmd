@@ -4,6 +4,6 @@ author: "Sohyun Park"
 editor: visual
 ---
 
-## Portfolio tools
+This week we will be learn about **Xaringan**. It is effective in making digital communication neat and manageable by producing interactive and dynamic presentations.
 
-This week we will be learn about
+I made a presentation by using xaringan about the LiDAR & RADAR. Click [here](https://zerop17.github.io/xaringan/#1) to check my presentation.
